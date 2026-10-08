@@ -1,0 +1,1292 @@
+{
+ "id": "B",
+ "titulo": "Las técnicas",
+ "mensaje_final": "¡Terminaste el bloque B! Ya conoces las técnicas para resolver sudokus fáciles, medios y difíciles. Cuando quieras, sigue practicando con el botón Practicar de cada lección.",
+ "lecciones": [
+  {
+   "id": "4",
+   "titulo": "Último número",
+   "explicacion": [
+    "Ahora pasamos a tableros más grandes: de 6 por 6, con los números del 1 al 6, y de 9 por 9, con los números del 1 al 9. La regla es la misma: en cada fila, columna y bloque van todos los números, sin repetir.",
+    "La técnica más fácil es el último número: si a una fila, una columna o un bloque solo le falta un número, ya sabes cuál es y dónde va.",
+    "Pulsa F, C o B para saber qué números faltan. Si falta uno solo, ¡ese es!",
+    "En estos ejercicios no te digo la casilla: te digo dónde mirar. Encontrarla es parte del juego."
+   ],
+   "practica": {
+    "objetivo": "ultimo_numero",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "4.1",
+     "generar": {
+      "objetivo": "ultimo_numero",
+      "tamano": 6,
+      "semilla": 41
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "513426",
+      "42.531",
+      "...6.4",
+      "645...",
+      "3.2...",
+      ".542.3"
+     ],
+     "objetivos": [
+      [
+       2,
+       3
+      ]
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Mira el bloque 1: solo le falta un número. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Pulsa B en el bloque 1 para saber qué número falta.",
+      "En el bloque 1 solo falta el 6: va en la fila 2, columna 3."
+     ],
+     "orientacion": "Mira el bloque 1: solo le falta un número."
+    },
+    {
+     "id": "4.2",
+     "generar": {
+      "objetivo": "ultimo_numero",
+      "tamano": 9,
+      "semilla": 42
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "498321657",
+      "365974281",
+      "127568394",
+      "256143.7.",
+      "78.295.46",
+      "94.687532",
+      "872456...",
+      "539712468",
+      "614839..5"
+     ],
+     "objetivos": [
+      [
+       6,
+       3
+      ]
+     ],
+     "inicio": [
+      6,
+      1
+     ],
+     "instruccion": "Mira la fila 6: solo le falta un número. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Pulsa F en la fila 6 para saber qué número falta.",
+      "En la fila 6 solo falta el 1: va en la fila 6, columna 3."
+     ],
+     "orientacion": "Mira la fila 6: solo le falta un número."
+    },
+    {
+     "id": "4.3",
+     "generar": {
+      "objetivo": "ultimo_numero",
+      "tamano": 9,
+      "semilla": 43
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "768391425",
+      "253478916",
+      "914652738",
+      "695824371",
+      "472513869",
+      "831967542",
+      ".4678.293",
+      "389246157",
+      ".27.39684"
+     ],
+     "objetivos": [
+      [
+       9,
+       4
+      ]
+     ],
+     "inicio": [
+      1,
+      4
+     ],
+     "instruccion": "Mira la columna 4: solo le falta un número. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Pulsa C en la columna 4 para saber qué número falta.",
+      "En la columna 4 solo falta el 1: va en la fila 9, columna 4."
+     ],
+     "orientacion": "Mira la columna 4: solo le falta un número."
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "titulo": "Único lugar en un bloque",
+   "explicacion": [
+    "Esta es la técnica que más se usa. Elige un número, por ejemplo el 7, y un bloque donde todavía no esté.",
+    "Mira las casillas vacías del bloque. En algunas no puede ir el 7, porque ya hay un 7 en su fila o en su columna. Si queda una sola casilla donde puede ir, ¡ahí va el 7!",
+    "Para saber si una casilla puede tener el 7, ve a ella y pulsa F y C: si el 7 aparece en la fila o en la columna, ahí no va."
+   ],
+   "practica": {
+    "objetivo": "unico_lugar_bloque",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "5.1",
+     "generar": {
+      "objetivo": "unico_lugar_bloque",
+      "tamano": 6,
+      "semilla": 51
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "41....",
+      "...4.1",
+      "23.5.4",
+      "1.4.63",
+      "6.5...",
+      "....45"
+     ],
+     "objetivos": [
+      [
+       4,
+       2
+      ]
+     ],
+     "inicio": [
+      3,
+      1
+     ],
+     "instruccion": "Mira el bloque 3: hay un número que solo cabe en un lugar. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Busca el 5: en el bloque 3 solo cabe en una casilla.",
+      "En el bloque 3, el 5 solo cabe en la fila 4, columna 2: las demás casillas vacías ya tienen un 5 en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira el bloque 3: hay un número que solo cabe en un lugar."
+    },
+    {
+     "id": "5.2",
+     "generar": {
+      "objetivo": "unico_lugar_bloque",
+      "tamano": 9,
+      "semilla": 52
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "7..418935",
+      "491352786",
+      "583796412",
+      "..48.3159",
+      "3.91.52.8",
+      "8152.96.3",
+      ".576.4..1",
+      "94.5.1827",
+      "13.9.7..4"
+     ],
+     "objetivos": [
+      [
+       9,
+       3
+      ]
+     ],
+     "inicio": [
+      7,
+      1
+     ],
+     "instruccion": "Mira el bloque 7: hay un número que solo cabe en un lugar. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Busca el 8: en el bloque 7 solo cabe en una casilla.",
+      "En el bloque 7, el 8 solo cabe en la fila 9, columna 3: las demás casillas vacías ya tienen un 8 en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira el bloque 7: hay un número que solo cabe en un lugar."
+    },
+    {
+     "id": "5.3",
+     "generar": {
+      "objetivo": "unico_lugar_bloque",
+      "tamano": 9,
+      "semilla": 53
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "1.97..843",
+      "2.74..691",
+      "8.41.9527",
+      "59..41372",
+      "37....418",
+      "41.37.965",
+      "94.2.71.6",
+      "7.39162.4",
+      "621..47.9"
+     ],
+     "objetivos": [
+      [
+       5,
+       5
+      ]
+     ],
+     "inicio": [
+      4,
+      4
+     ],
+     "instruccion": "Mira el bloque 5: hay un número que solo cabe en un lugar. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Busca el 9: en el bloque 5 solo cabe en una casilla.",
+      "En el bloque 5, el 9 solo cabe en la fila 5, columna 5: las demás casillas vacías ya tienen un 9 en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira el bloque 5: hay un número que solo cabe en un lugar."
+    }
+   ]
+  },
+  {
+   "id": "6",
+   "titulo": "Único lugar en filas y columnas",
+   "explicacion": [
+    "Lo mismo sirve con una fila o una columna: elige un número que le falte a la fila y busca dónde puede ir.",
+    "En cada casilla vacía de la fila, el número no puede ir si ya está en su columna o en su bloque. Si queda un solo lugar, ahí va.",
+    "Esta técnica sirve cuando mirar los bloques no basta."
+   ],
+   "practica": {
+    "objetivo": "unico_lugar_linea",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "6.1",
+     "generar": {
+      "objetivo": "unico_lugar_linea",
+      "tamano": 6,
+      "semilla": 61
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "156243",
+      "432516",
+      "524361",
+      "361425",
+      ".1.6.4",
+      ".431.2"
+     ],
+     "objetivos": [
+      [
+       6,
+       5
+      ]
+     ],
+     "inicio": [
+      6,
+      1
+     ],
+     "instruccion": "Mira la fila 6: hay un número que solo cabe en un lugar. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Busca el 5: en la fila 6 solo cabe en una casilla.",
+      "En la fila 6, el 5 solo cabe en la fila 6, columna 5: las demás casillas vacías ya tienen un 5 en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira la fila 6: hay un número que solo cabe en un lugar."
+    },
+    {
+     "id": "6.2",
+     "generar": {
+      "objetivo": "unico_lugar_linea",
+      "tamano": 9,
+      "semilla": 62
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "194687235",
+      "783952...",
+      ".6.413789",
+      "..8396.27",
+      "...578...",
+      ".7.1245.8",
+      "927.35.6.",
+      "....4.8.2",
+      "84.26.97."
+     ],
+     "objetivos": [
+      [
+       9,
+       3
+      ]
+     ],
+     "inicio": [
+      9,
+      1
+     ],
+     "instruccion": "Mira la fila 9: hay un número que solo cabe en un lugar. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Busca el 5: en la fila 9 solo cabe en una casilla.",
+      "En la fila 9, el 5 solo cabe en la fila 9, columna 3: las demás casillas vacías ya tienen un 5 en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira la fila 9: hay un número que solo cabe en un lugar."
+    },
+    {
+     "id": "6.3",
+     "generar": {
+      "objetivo": "unico_lugar_linea",
+      "tamano": 9,
+      "semilla": 63
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "642851973",
+      "839.62451",
+      "751.39286",
+      ".8362719.",
+      "91.3856.2",
+      ".2619483.",
+      "178243569",
+      ".6.97831.",
+      "39.516.2."
+     ],
+     "objetivos": [
+      [
+       8,
+       3
+      ]
+     ],
+     "inicio": [
+      1,
+      3
+     ],
+     "instruccion": "Mira la columna 3: hay un número que solo cabe en un lugar. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Busca el 5: en la columna 3 solo cabe en una casilla.",
+      "En la columna 3, el 5 solo cabe en la fila 8, columna 3: las demás casillas vacías ya tienen un 5 en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira la columna 3: hay un número que solo cabe en un lugar."
+    }
+   ]
+  },
+  {
+   "id": "7",
+   "titulo": "Único número",
+   "explicacion": [
+    "Ahora al revés: en vez de elegir un número, elige una casilla vacía y pregúntate qué números pueden ir en ella.",
+    "Pulsa F, C y B: los números que ya están en su fila, su columna o su bloque no pueden ir. Si solo queda uno, ¡ese es!",
+    "Esta técnica cuesta un poco más, porque hay que juntar lo que dicen la fila, la columna y el bloque. Las notas ayudan, como verás en la próxima lección."
+   ],
+   "practica": {
+    "objetivo": "unico_numero",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "7.1",
+     "generar": {
+      "objetivo": "unico_numero",
+      "tamano": 6,
+      "semilla": 71
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "...31.",
+      ".135.2",
+      "2...3.",
+      ".4...1",
+      "5.614.",
+      ".34..."
+     ],
+     "objetivos": [
+      [
+       2,
+       5
+      ]
+     ],
+     "inicio": [
+      2,
+      1
+     ],
+     "instruccion": "Mira la fila 2: hay una casilla donde solo cabe un número. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Recorre las casillas vacías de la fila 2 y pulsa C y B en cada una: en una de ellas solo cabe un número.",
+      "En la fila 2, columna 5 solo cabe el 6: los demás números ya están en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira la fila 2: hay una casilla donde solo cabe un número."
+    },
+    {
+     "id": "7.2",
+     "generar": {
+      "objetivo": "unico_numero",
+      "tamano": 9,
+      "semilla": 72
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "4637891..",
+      "857214.63",
+      "219536478",
+      "7....16.4",
+      "....4....",
+      "5.26....1",
+      "9.417..8.",
+      "6..4.831.",
+      "..19.5.4."
+     ],
+     "objetivos": [
+      [
+       9,
+       1
+      ]
+     ],
+     "inicio": [
+      9,
+      1
+     ],
+     "instruccion": "Mira la fila 9: hay una casilla donde solo cabe un número. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Recorre las casillas vacías de la fila 9 y pulsa C y B en cada una: en una de ellas solo cabe un número.",
+      "En la fila 9, columna 1 solo cabe el 3: los demás números ya están en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira la fila 9: hay una casilla donde solo cabe un número."
+    },
+    {
+     "id": "7.3",
+     "generar": {
+      "objetivo": "unico_numero",
+      "tamano": 9,
+      "semilla": 73
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "147269853",
+      "625873194",
+      "893...762",
+      "278936415",
+      "416725389",
+      "359148627",
+      "732......",
+      "981...2.6",
+      "56438...."
+     ],
+     "objetivos": [
+      [
+       7,
+       8
+      ]
+     ],
+     "inicio": [
+      7,
+      1
+     ],
+     "instruccion": "Mira la fila 7: hay una casilla donde solo cabe un número. Encuéntralo y escríbelo.",
+     "pistas": [
+      "Recorre las casillas vacías de la fila 7 y pulsa C y B en cada una: en una de ellas solo cabe un número.",
+      "En la fila 7, columna 8 solo cabe el 4: los demás números ya están en su fila, su columna o su bloque."
+     ],
+     "orientacion": "Mira la fila 7: hay una casilla donde solo cabe un número."
+    }
+   ]
+  },
+  {
+   "id": "8",
+   "titulo": "Las notas como ayuda",
+   "explicacion": [
+    "En los sudokus grandes no se puede recordar todo. Las notas sirven para apuntar qué números pueden ir en una casilla.",
+    "Para cada número, mira si ya está en la fila, en la columna o en el bloque de la casilla. Si no está, ponlo como nota con Mayúsculas y el número. N lee las notas de la casilla.",
+    "Cuando una casilla tiene una sola nota, ese es su número. Y cuando escribes un número, esa nota se borra sola de las casillas de su fila, su columna y su bloque."
+   ],
+   "practica": {
+    "objetivo": "notas",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "8.1",
+     "generar": {
+      "objetivo": "notas",
+      "tamano": 6,
+      "semilla": 81
+     },
+     "tipo": "notas",
+     "tablero": [
+      "134256",
+      "652341",
+      "3215..",
+      "465132",
+      "24....",
+      "51..23"
+     ],
+     "objetivos": [
+      [
+       5,
+       3
+      ]
+     ],
+     "inicio": [
+      5,
+      3
+     ],
+     "instruccion": "Pon como notas en la fila 5, columna 3 todos los números que pueden ir.",
+     "pistas": [
+      "Pulsa F, C y B para saber qué números ya están en su fila, su columna y su bloque.",
+      "Los números que pueden ir son: 3 y 6."
+     ]
+    },
+    {
+     "id": "8.2",
+     "generar": {
+      "objetivo": "notas",
+      "tamano": 9,
+      "semilla": 82
+     },
+     "tipo": "notas",
+     "tablero": [
+      "138692745",
+      "275431968",
+      "964857231",
+      "4.9.7..53",
+      "3.6.4...7",
+      "85731.4..",
+      ".81.643.2",
+      "74352..16",
+      ".92183..."
+     ],
+     "objetivos": [
+      [
+       5,
+       2
+      ]
+     ],
+     "inicio": [
+      5,
+      2
+     ],
+     "instruccion": "Pon como notas en la fila 5, columna 2 todos los números que pueden ir.",
+     "pistas": [
+      "Pulsa F, C y B para saber qué números ya están en su fila, su columna y su bloque.",
+      "Los números que pueden ir son: 1 y 2."
+     ]
+    },
+    {
+     "id": "8.3",
+     "generar": {
+      "objetivo": "notas",
+      "tamano": 9,
+      "semilla": 83
+     },
+     "tipo": "notas",
+     "tablero": [
+      "678591234",
+      "..4276918",
+      "291483576",
+      "1..629.47",
+      "742158693",
+      "869734125",
+      "..73....2",
+      "42.96....",
+      ".168.27.."
+     ],
+     "objetivos": [
+      [
+       8,
+       3
+      ]
+     ],
+     "inicio": [
+      8,
+      3
+     ],
+     "instruccion": "Pon como notas en la fila 8, columna 3 todos los números que pueden ir.",
+     "pistas": [
+      "Pulsa F, C y B para saber qué números ya están en su fila, su columna y su bloque.",
+      "Los números que pueden ir son: 3 y 5."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9",
+   "titulo": "Intersección",
+   "explicacion": [
+    "Las dos técnicas que quedan son distintas: no te dicen dónde va un número, sino dónde no puede ir. Ese descarte se hace con las notas.",
+    "Imagina que en el bloque 2 el 7 solo puede ir en dos casillas, y las dos están en la fila 3. No sabes en cuál de las dos va, pero el 7 del bloque 2 seguro estará en la fila 3.",
+    "Entonces, en el resto de la fila 3, fuera del bloque 2, no puede haber otro 7: puedes quitar la nota 7 de esas casillas. Eso es una intersección.",
+    "También funciona al revés: si en una fila un número solo puede ir dentro de un mismo bloque, puedes quitar esa nota del resto del bloque.",
+    "Cada ejercicio tiene dos pasos, y el tablero ya trae las notas puestas. En el paso 1 te digo qué nota quitar y en qué casilla: quítala con Mayúsculas y el número. En el paso 2, con esa nota quitada, aparece un número que ya puedes escribir."
+   ],
+   "practica": {
+    "objetivo": "interseccion",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "9.1",
+     "generar": {
+      "objetivo": "interseccion",
+      "tamano": 9,
+      "semilla": 91
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "1.596..48",
+      ".6348519.",
+      "498....65",
+      "6542.89..",
+      "839.5.62.",
+      "..169.58.",
+      "542..6879",
+      "317829456",
+      "986547..."
+     ],
+     "objetivos": [
+      [
+       3,
+       7
+      ]
+     ],
+     "inicio": [
+      3,
+      7
+     ],
+     "instruccion": "Paso 1 de 2. En el bloque 2, el 7 solo puede ir en la fila 3, columna 4 y la fila 3, columna 5, que están también en la fila 3. Así que en la fila 3 no puede haber otro 7 fuera de esas casillas. Quita la nota 7 de la fila 3, columna 7.",
+     "pistas": [
+      "Las notas se quitan con Mayúsculas y el número, las mismas teclas que las ponen. N lee las notas de una casilla.",
+      "Quita la nota 7 de la fila 3, columna 7."
+     ],
+     "orientacion": "Quita la nota 7 de la fila 3, columna 7.",
+     "notas": [
+      [
+       1,
+       6,
+       "23"
+      ],
+      [
+       1,
+       7,
+       "237"
+      ],
+      [
+       3,
+       4,
+       "137"
+      ],
+      [
+       3,
+       5,
+       "137"
+      ],
+      [
+       3,
+       6,
+       "123"
+      ],
+      [
+       3,
+       7,
+       "237"
+      ],
+      [
+       9,
+       7,
+       "23"
+      ]
+     ],
+     "quitar": [
+      [
+       3,
+       7,
+       7
+      ]
+     ],
+     "segundo": {
+      "id": "9.1",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        1,
+        7
+       ]
+      ],
+      "inicio": [
+       3,
+       7
+      ],
+      "instruccion": "Paso 2 de 2. Ahora, en la columna 7, el 7 solo cabe en una casilla. Encuéntrala y escríbelo.",
+      "pistas": [
+       "Pulsa N en las casillas vacías de la columna 7: solo una tiene todavía la nota 7.",
+       "El 7 va en la fila 1, columna 7."
+      ],
+      "orientacion": "Ahora, en la columna 7, el 7 solo cabe en una casilla."
+     }
+    },
+    {
+     "id": "9.2",
+     "generar": {
+      "objetivo": "interseccion",
+      "tamano": 9,
+      "semilla": 92
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "74..816..",
+      "863.957..",
+      ".2..76...",
+      "974..8.62",
+      "..8.294.7",
+      ".3...798.",
+      "...7...9.",
+      ".9781.2.6",
+      "...9...73"
+     ],
+     "objetivos": [
+      [
+       4,
+       4
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "inicio": [
+      4,
+      4
+     ],
+     "instruccion": "Paso 1 de 2. En el bloque 2, el 3 solo puede ir en la fila 1, columna 4 y la fila 3, columna 4, que están también en la columna 4. Así que en la columna 4 no puede haber otro 3 fuera de esas casillas. Quita la nota 3 de la fila 4, columna 4. Quita la nota 3 de la fila 5, columna 4.",
+     "pistas": [
+      "Las notas se quitan con Mayúsculas y el número, las mismas teclas que las ponen. N lee las notas de una casilla.",
+      "Quita la nota 3 de la fila 4, columna 4. Quita la nota 3 de la fila 5, columna 4."
+     ],
+     "orientacion": "Quita la nota 3 de la fila 4, columna 4. Quita la nota 3 de la fila 5, columna 4.",
+     "notas": [
+      [
+       1,
+       4,
+       "23"
+      ],
+      [
+       2,
+       4,
+       "24"
+      ],
+      [
+       3,
+       4,
+       "34"
+      ],
+      [
+       4,
+       4,
+       "135"
+      ],
+      [
+       4,
+       5,
+       "35"
+      ],
+      [
+       5,
+       4,
+       "1356"
+      ],
+      [
+       6,
+       4,
+       "1456"
+      ],
+      [
+       6,
+       5,
+       "456"
+      ]
+     ],
+     "quitar": [
+      [
+       4,
+       4,
+       3
+      ],
+      [
+       5,
+       4,
+       3
+      ]
+     ],
+     "segundo": {
+      "id": "9.2",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        4,
+        5
+       ]
+      ],
+      "inicio": [
+       4,
+       4
+      ],
+      "instruccion": "Paso 2 de 2. Ahora, en el bloque 5, el 3 solo cabe en una casilla. Encuéntrala y escríbelo.",
+      "pistas": [
+       "Pulsa N en las casillas vacías de el bloque 5: solo una tiene todavía la nota 3.",
+       "El 3 va en la fila 4, columna 5."
+      ],
+      "orientacion": "Ahora, en el bloque 5, el 3 solo cabe en una casilla."
+     }
+    },
+    {
+     "id": "9.3",
+     "generar": {
+      "objetivo": "interseccion",
+      "tamano": 9,
+      "semilla": 93
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "5971...43",
+      "1..97.6..",
+      "268543197",
+      "9...1..7.",
+      "781235469",
+      ".2.79...1",
+      ".1...978.",
+      "8.2..791.",
+      "679..1..4"
+     ],
+     "objetivos": [
+      [
+       9,
+       4
+      ]
+     ],
+     "inicio": [
+      9,
+      4
+     ],
+     "instruccion": "Paso 1 de 2. En el bloque 9, el 3 solo puede ir en la fila 9, columna 7 y la fila 9, columna 8, que están también en la fila 9. Así que en la fila 9 no puede haber otro 3 fuera de esas casillas. Quita la nota 3 de la fila 9, columna 4.",
+     "pistas": [
+      "Las notas se quitan con Mayúsculas y el número, las mismas teclas que las ponen. N lee las notas de una casilla.",
+      "Quita la nota 3 de la fila 9, columna 4."
+     ],
+     "orientacion": "Quita la nota 3 de la fila 9, columna 4.",
+     "notas": [
+      [
+       4,
+       4,
+       "468"
+      ],
+      [
+       7,
+       4,
+       "346"
+      ],
+      [
+       7,
+       5,
+       "256"
+      ],
+      [
+       7,
+       9,
+       "256"
+      ],
+      [
+       8,
+       4,
+       "346"
+      ],
+      [
+       8,
+       5,
+       "56"
+      ],
+      [
+       8,
+       9,
+       "56"
+      ],
+      [
+       9,
+       4,
+       "38"
+      ],
+      [
+       9,
+       5,
+       "258"
+      ],
+      [
+       9,
+       7,
+       "235"
+      ],
+      [
+       9,
+       8,
+       "235"
+      ]
+     ],
+     "quitar": [
+      [
+       9,
+       4,
+       3
+      ]
+     ],
+     "segundo": {
+      "id": "9.3",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        9,
+        4
+       ]
+      ],
+      "inicio": [
+       9,
+       4
+      ],
+      "instruccion": "Paso 2 de 2. Ahora en la fila 9, columna 4 queda una sola nota. Escribe ese número.",
+      "pistas": [
+       "Pulsa N en la fila 9, columna 4: queda una sola nota.",
+       "El 8 va en la fila 9, columna 4."
+      ],
+      "orientacion": "Escribe en la fila 9, columna 4."
+     }
+    }
+   ]
+  },
+  {
+   "id": "10",
+   "titulo": "Pareja",
+   "explicacion": [
+    "Imagina dos casillas de una columna que solo tienen las notas 1 y 3. Una tendrá el 1 y la otra el 3, aunque todavía no sepas cuál.",
+    "Entonces ninguna otra casilla de esa columna puede tener un 1 ni un 3: puedes quitar esas notas del resto de la columna. Eso es una pareja.",
+    "También funciona al revés: si en una fila el 1 y el 3 solo caben en las mismas dos casillas, esas dos casillas no pueden tener otros números, y puedes quitar sus demás notas.",
+    "Como en la intersección, cada ejercicio tiene dos pasos: primero quitas las notas que se descartan, y después escribes el número que queda claro."
+   ],
+   "practica": {
+    "objetivo": "pareja",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "10.1",
+     "generar": {
+      "objetivo": "pareja",
+      "tamano": 9,
+      "semilla": 101
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "9321.....",
+      "8479.5..2",
+      "15682.9.7",
+      ".63...894",
+      ".843.9...",
+      "519...7.3",
+      "42.79.356",
+      "67.4..2.9",
+      "39...247."
+     ],
+     "objetivos": [
+      [
+       6,
+       6
+      ]
+     ],
+     "inicio": [
+      6,
+      6
+     ],
+     "instruccion": "Paso 1 de 2. En el bloque 5, el 4 y el 8 solo pueden ir en la fila 6, columna 5 y la fila 6, columna 6. Así que esas dos casillas no pueden tener otros números. Quita la nota 6 de la fila 6, columna 6.",
+     "pistas": [
+      "Las notas se quitan con Mayúsculas y el número, las mismas teclas que las ponen. N lee las notas de una casilla.",
+      "Quita la nota 6 de la fila 6, columna 6."
+     ],
+     "orientacion": "Quita la nota 6 de la fila 6, columna 6.",
+     "notas": [
+      [
+       1,
+       6,
+       "467"
+      ],
+      [
+       3,
+       6,
+       "34"
+      ],
+      [
+       4,
+       4,
+       "25"
+      ],
+      [
+       4,
+       5,
+       "157"
+      ],
+      [
+       4,
+       6,
+       "17"
+      ],
+      [
+       5,
+       5,
+       "1567"
+      ],
+      [
+       6,
+       4,
+       "26"
+      ],
+      [
+       6,
+       5,
+       "468"
+      ],
+      [
+       6,
+       6,
+       "468"
+      ],
+      [
+       7,
+       6,
+       "18"
+      ],
+      [
+       8,
+       6,
+       "138"
+      ]
+     ],
+     "quitar": [
+      [
+       6,
+       6,
+       6
+      ]
+     ],
+     "segundo": {
+      "id": "10.1",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        1,
+        6
+       ]
+      ],
+      "inicio": [
+       6,
+       6
+      ],
+      "instruccion": "Paso 2 de 2. Ahora, en la columna 6, el 6 solo cabe en una casilla. Encuéntrala y escríbelo.",
+      "pistas": [
+       "Pulsa N en las casillas vacías de la columna 6: solo una tiene todavía la nota 6.",
+       "El 6 va en la fila 1, columna 6."
+      ],
+      "orientacion": "Ahora, en la columna 6, el 6 solo cabe en una casilla."
+     }
+    },
+    {
+     "id": "10.2",
+     "generar": {
+      "objetivo": "pareja",
+      "tamano": 9,
+      "semilla": 102
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "8....67.5",
+      "795.8..36",
+      "4.657.928",
+      "248..7.53",
+      "..1...8.7",
+      ".678..2.4",
+      "179..85.2",
+      "684125379",
+      "...7.9.81"
+     ],
+     "objetivos": [
+      [
+       2,
+       6
+      ]
+     ],
+     "inicio": [
+      2,
+      6
+     ],
+     "instruccion": "Paso 1 de 2. En la columna 6, la fila 3, columna 6 y la fila 6, columna 6 solo admiten el 1 y el 3. Así que en la columna 6 ninguna otra casilla puede tener un 1 ni un 3. Quita la nota 1 de la fila 2, columna 6.",
+     "pistas": [
+      "Las notas se quitan con Mayúsculas y el número, las mismas teclas que las ponen. N lee las notas de una casilla.",
+      "Quita la nota 1 de la fila 2, columna 6."
+     ],
+     "orientacion": "Quita la nota 1 de la fila 2, columna 6.",
+     "notas": [
+      [
+       2,
+       4,
+       "24"
+      ],
+      [
+       2,
+       6,
+       "124"
+      ],
+      [
+       2,
+       7,
+       "14"
+      ],
+      [
+       3,
+       6,
+       "13"
+      ],
+      [
+       5,
+       6,
+       "234"
+      ],
+      [
+       6,
+       6,
+       "13"
+      ]
+     ],
+     "quitar": [
+      [
+       2,
+       6,
+       1
+      ]
+     ],
+     "segundo": {
+      "id": "10.2",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        2,
+        7
+       ]
+      ],
+      "inicio": [
+       2,
+       6
+      ],
+      "instruccion": "Paso 2 de 2. Ahora, en la fila 2, el 1 solo cabe en una casilla. Encuéntrala y escríbelo.",
+      "pistas": [
+       "Pulsa N en las casillas vacías de la fila 2: solo una tiene todavía la nota 1.",
+       "El 1 va en la fila 2, columna 7."
+      ],
+      "orientacion": "Ahora, en la fila 2, el 1 solo cabe en una casilla."
+     }
+    },
+    {
+     "id": "10.3",
+     "generar": {
+      "objetivo": "pareja",
+      "tamano": 9,
+      "semilla": 103
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "...3548.7",
+      "4..17...2",
+      "7.39...14",
+      "34.7....9",
+      "8.62.5473",
+      "5..4.3.86",
+      ".3....9.8",
+      "...839..5",
+      "..8.4...1"
+     ],
+     "objetivos": [
+      [
+       4,
+       6
+      ]
+     ],
+     "inicio": [
+      4,
+      6
+     ],
+     "instruccion": "Paso 1 de 2. En el bloque 5, la fila 5, columna 5 y la fila 6, columna 5 solo admiten el 1 y el 9. Así que en el bloque 5 ninguna otra casilla puede tener un 1 ni un 9. Quita la nota 1 de la fila 4, columna 6.",
+     "pistas": [
+      "Las notas se quitan con Mayúsculas y el número, las mismas teclas que las ponen. N lee las notas de una casilla.",
+      "Quita la nota 1 de la fila 4, columna 6."
+     ],
+     "orientacion": "Quita la nota 1 de la fila 4, columna 6.",
+     "notas": [
+      [
+       2,
+       6,
+       "68"
+      ],
+      [
+       3,
+       6,
+       "268"
+      ],
+      [
+       4,
+       5,
+       "168"
+      ],
+      [
+       4,
+       6,
+       "168"
+      ],
+      [
+       5,
+       5,
+       "19"
+      ],
+      [
+       6,
+       5,
+       "19"
+      ],
+      [
+       7,
+       6,
+       "1267"
+      ],
+      [
+       9,
+       6,
+       "267"
+      ]
+     ],
+     "quitar": [
+      [
+       4,
+       6,
+       1
+      ]
+     ],
+     "segundo": {
+      "id": "10.3",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        7,
+        6
+       ]
+      ],
+      "inicio": [
+       4,
+       6
+      ],
+      "instruccion": "Paso 2 de 2. Ahora, en la columna 6, el 1 solo cabe en una casilla. Encuéntrala y escríbelo.",
+      "pistas": [
+       "Pulsa N en las casillas vacías de la columna 6: solo una tiene todavía la nota 1.",
+       "El 1 va en la fila 7, columna 6."
+      ],
+      "orientacion": "Ahora, en la columna 6, el 1 solo cabe en una casilla."
+     }
+    }
+   ]
+  }
+ ]
+}
