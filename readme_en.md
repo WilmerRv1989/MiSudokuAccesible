@@ -21,6 +21,8 @@ MiSudokuAccesible is the second game in my collection for NVDA, after [MiAjedrez
 
 Every cell can be read by speech and braille, and everything is saved automatically: close the board, or even NVDA, and continue later where you left off. The add-on works with NVDA 2026.1 and later, does not need the Internet and does not send any data.
 
+> **About braille:** I have not tested it with a braille display yet. The board should be shown just as it is spoken, but that part needs to be reviewed. If you use braille and something does not read well, you would help me a lot by letting me know.
+
 ## Where to start
 
 Everything opens from the NVDA menu (NVDA+N), Tools, MiSudokuAccesible:
@@ -55,6 +57,10 @@ Blocks are numbered from left to right and from top to bottom. You can change an
 I developed MiSudokuAccesible with the assistance of Claude, an AI model by Anthropic. Claude wrote most of the code following my instructions, looked into NVDA's documentation and code, and suggested technical solutions. The direction and the decisions were mine: the design of the add-on, the course and the way it teaches, the sounds, how it behaves with the screen reader, and what to leave out.
 
 I tested and approved every version, feature, key and spoken message myself with NVDA. I tell you this because I believe it is the honest thing to do. If you find a bug, it is my responsibility, and you would help me a lot by letting me know.
+
+## What comes next
+
+I want MiSudokuAccesible to keep growing. In future versions I would like to add sudoku variants, such as killer sudoku, sandwich sudoku or diagonal sudoku, among others. I am still deciding which ones; if there is one you would like to play, write to me.
 
 ## Get in touch
 

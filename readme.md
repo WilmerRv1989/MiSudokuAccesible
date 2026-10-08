@@ -21,6 +21,8 @@ MiSudokuAccesible es el segundo juego de mi colección para NVDA, después de [M
 
 Cada casilla se lee por voz y en braille, y todo se guarda solo: cierra el tablero, o incluso NVDA, y sigue después donde lo dejaste. El complemento funciona con NVDA 2026.1 o posterior, no necesita Internet y no envía ningún dato.
 
+> **Sobre el braille:** todavía no lo he probado con una línea braille. El tablero debería mostrarse igual que se oye, pero esa parte necesita revisión. Si usas braille y algo no se lee bien, me ayudarías mucho contándomelo.
+
 ## Por dónde empezar
 
 Todo se abre desde el menú de NVDA (NVDA+N), Herramientas, MiSudokuAccesible:
@@ -55,6 +57,10 @@ Los bloques se numeran de izquierda a derecha y de arriba abajo. Puedes cambiar 
 Desarrollé MiSudokuAccesible con la asistencia de Claude, un modelo de inteligencia artificial de Anthropic. Claude escribió la mayor parte del código siguiendo mis indicaciones, consultó la documentación y el código de NVDA y me propuso soluciones técnicas. La dirección y las decisiones fueron mías: el diseño del complemento, el curso y la forma de enseñar, los sonidos, cómo se comporta con el lector de pantalla y qué dejar fuera.
 
 Probé y aprobé yo mismo con NVDA cada versión, función, tecla y mensaje de voz. Te lo cuento porque creo que es lo honesto. Si encuentras un error, la responsabilidad es mía, y me ayudas mucho si me lo haces saber.
+
+## Lo que viene
+
+Quiero que MiSudokuAccesible siga creciendo. En próximas versiones me gustaría añadir variantes del sudoku, como el sudoku killer, el sudoku sándwich o el sudoku diagonal, entre otras. Todavía estoy decidiendo cuáles; si hay alguna que te gustaría jugar, escríbeme.
 
 ## Escríbeme
 
