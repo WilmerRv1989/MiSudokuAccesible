@@ -1129,8 +1129,8 @@ msgstr "Sudoku reiniciado."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
-msgid "Accessible sudoku for NVDA, for all ages.\nPlay 9 by 9 sudokus in three levels and mini sudokus of 4 by 4 and 6 by 6, with every cell readable by speech and braille. Includes hints that explain every move; Learn to play, a guided 13-lesson course also designed for children, with endless practice of each technique; a sudoku of the day; and your statistics.\nThe Learn to play course is currently available in Spanish only."
-msgstr "Sudoku accesible para NVDA, para todas las edades.\nJuega sudokus de 9 por 9 en tres niveles y mini sudokus de 4 por 4 y 6 por 6, con cada casilla legible por voz y en braille. Incluye pistas que explican cada jugada; Aprender a jugar, un curso guiado de 13 lecciones pensado también para niñas y niños, con práctica sin fin de cada técnica; un sudoku del día; y tus estadísticas.\nPor ahora, el curso Aprender a jugar solo está disponible en español."
+msgid "Accessible sudoku for NVDA, for all ages.\nPlay 9 by 9 sudokus in three levels and mini sudokus of 4 by 4 and 6 by 6, with every cell readable by speech and braille. Includes hints that explain every move; Learn to play, a guided 13-lesson course also designed for children, with endless practice of each technique; a sudoku of the day; and your statistics.\nThe Learn to play course is currently available in Spanish and Brazilian Portuguese only."
+msgstr "Sudoku accesible para NVDA, para todas las edades.\nJuega sudokus de 9 por 9 en tres niveles y mini sudokus de 4 por 4 y 6 por 6, con cada casilla legible por voz y en braille. Incluye pistas que explican cada jugada; Aprender a jugar, un curso guiado de 13 lecciones pensado también para niñas y niños, con práctica sin fin de cada técnica; un sudoku del día; y tus estadísticas.\nPor ahora, el curso Aprender a jugar solo está disponible en español y en portugués de Brasil."
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store

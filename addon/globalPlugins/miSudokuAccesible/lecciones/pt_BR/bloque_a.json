@@ -1,0 +1,306 @@
+{
+ "id": "A",
+ "titulo": "Conhecendo o sudoku",
+ "mensaje_final": "Você terminou o bloco A! Já conhece as regras e sabe se mover, escrever, apagar e fazer anotações. Agora vêm as técnicas para resolver qualquer sudoku.",
+ "lecciones": [
+  {
+   "id": "1",
+   "titulo": "As regras",
+   "explicacion": [
+    "O sudoku é um jogo de números e de raciocínio. Não precisa somar nem subtrair: basta prestar bastante atenção.",
+    "Vamos começar com um sudoku pequeno, de 4 por 4. Ele tem 4 linhas, 4 colunas e 4 blocos de 2 por 2 células.",
+    "A regra é uma só: em cada linha, em cada coluna e em cada bloco têm que estar os números de 1 a 4, sem repetir nenhum.",
+    "Alguns números já vêm colocados: são os fixos e não podem ser mudados. Você preenche as células vazias.",
+    "Para escrever um número, vá até a célula com as setas e pressione a tecla desse número. Se você errar, não tem problema: eu explico por que esse número não vai.",
+    "Se você não souber como continuar, pressione P para uma dica curta, ou Shift+P para uma dica completa. F2 repete o que você precisa fazer."
+   ],
+   "ejercicios": [
+    {
+     "id": "1.1",
+     "tipo": "escribir",
+     "tablero": [
+      "123.",
+      "34.2",
+      ".1.3",
+      "4..1"
+     ],
+     "objetivos": [
+      [
+       1,
+       4
+      ]
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "A linha 1, a de cima, está faltando um número. Você está na linha 1, coluna 1. Vá até a última célula da linha, a coluna 4, e escreva o número que falta.",
+     "pistas": [
+      "A linha 1 já tem o 1, o 2 e o 3. Qual número de 1 a 4 falta?",
+      "Falta o 4. Pressione End para ir até a coluna 4 e depois pressione a tecla 4."
+     ]
+    },
+    {
+     "id": "1.2",
+     "tipo": "escribir",
+     "tablero": [
+      "1.34",
+      ".41.",
+      "2..3",
+      "4.21"
+     ],
+     "objetivos": [
+      [
+       2,
+       1
+      ]
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Agora olhe a coluna 1, a da esquerda. Está faltando um número na linha 2. Vá até a linha 2, coluna 1, e escreva-o.",
+     "pistas": [
+      "A coluna 1 tem o 1, o 2 e o 4. Qual falta?",
+      "Falta o 3. Desça uma vez com a seta para baixo e pressione a tecla 3."
+     ]
+    },
+    {
+     "id": "1.3",
+     "tipo": "escribir",
+     "tablero": [
+      "12..",
+      ".4.2",
+      "2.4.",
+      ".321"
+     ],
+     "objetivos": [
+      [
+       3,
+       4
+      ]
+     ],
+     "inicio": [
+      3,
+      3
+     ],
+     "instruccion": "Os blocos também contam. O bloco 4, o de baixo à direita, tem uma célula vazia na linha 3, coluna 4. Escreva o número que falta no bloco.",
+     "pistas": [
+      "O bloco 4 tem o 4, o 2 e o 1. Qual falta?",
+      "Falta o 3. Pressione uma vez a seta para a direita e depois a tecla 3."
+     ]
+    },
+    {
+     "id": "1.4",
+     "tipo": "completar",
+     "tablero": [
+      "1.34",
+      "34.2",
+      "2.43",
+      ".321"
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Agora complete você o tabuleiro inteiro! Faltam 4 números, um em cada linha.",
+     "pistas": [
+      "Procure uma linha à qual falte um só número. Por exemplo, a linha 1 tem o 1, o 3 e o 4.",
+      "Na linha 1, coluna 2 vai o 2; na linha 2, coluna 3, o 1; na linha 3, coluna 2, o 1; e na linha 4, coluna 1, o 4."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "titulo": "Linhas, colunas e blocos",
+   "explicacion": [
+    "As linhas vão de cima para baixo: a linha 1 é a de cima. As colunas vão da esquerda para a direita: a coluna 1 é a da esquerda.",
+    "Mova-se com as setas. O NVDA diz a linha, a coluna e o que há na célula. Home e End levam você à primeira ou à última célula da linha.",
+    "Os blocos são numerados como se lê: da esquerda para a direita e de cima para baixo. No 4 por 4, o bloco 1 fica em cima à esquerda e o bloco 4 embaixo à direita. Ao entrar em outro bloco, o NVDA diz o número dele.",
+    "Para saber o que tem uma linha, pressione F (de fileira). Com C você lê a coluna, e com B o bloco: eles dizem quais números há e quais faltam.",
+    "Tab leva você à próxima célula vazia, e Shift+Tab à anterior."
+   ],
+   "ejercicios": [
+    {
+     "id": "2.1",
+     "tipo": "escribir",
+     "tablero": [
+      "12.4",
+      ".412",
+      "2.43",
+      "43.1"
+     ],
+     "objetivos": [
+      [
+       3,
+       2
+      ]
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Você está na linha 1, coluna 1. Vá até a linha 3, coluna 2, e escreva um 1.",
+     "pistas": [
+      "Para descer até a linha 3, pressione duas vezes a seta para baixo. Depois, uma vez a seta para a direita.",
+      "Seta para baixo, seta para baixo, seta para a direita, e depois a tecla 1."
+     ]
+    },
+    {
+     "id": "2.2",
+     "tipo": "escribir",
+     "tablero": [
+      "12.4",
+      "3412",
+      "21.3",
+      "4..1"
+     ],
+     "objetivos": [
+      [
+       1,
+       3
+      ]
+     ],
+     "inicio": [
+      4,
+      1
+     ],
+     "instruccion": "Você está embaixo à esquerda, no bloco 3. Procure a célula vazia do bloco 2, o de cima à direita, e escreva o número que falta nele. Dentro do bloco, pressione B para saber quais números ele tem.",
+     "pistas": [
+      "Suba até a linha 1 e mova-se para a direita até o NVDA dizer bloco 2. Ali pressione B.",
+      "A célula vazia do bloco 2 é a linha 1, coluna 3, e nela falta o 3."
+     ]
+    },
+    {
+     "id": "2.3",
+     "tipo": "completar",
+     "tablero": [
+      "1.34",
+      "3412",
+      "21.3",
+      "4..1"
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Complete o tabuleiro. Pressione Tab para pular de uma célula vazia para a seguinte, e F, C ou B para saber quais números faltam.",
+     "pistas": [
+      "Pressione Tab para ir a uma célula vazia e depois F: se à linha falta um só número, esse é o que vai.",
+      "Vão o 2 na linha 1, coluna 2; o 4 na linha 3, coluna 3; o 3 na linha 4, coluna 2; e o 2 na linha 4, coluna 3."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "titulo": "Escrever, apagar e anotações",
+   "explicacion": [
+    "Se você escrever um número errado em um sudoku de verdade, pode apagá-lo com Delete ou com Backspace. Control+Z desfaz a última alteração.",
+    "Quando você não sabe qual número vai em uma célula, pode anotar os que poderiam ir: são as anotações. Pressione Shift e o número para fazer uma anotação, e de novo para tirá-la. A tecla N lê as anotações da célula.",
+    "Para saber quais anotações fazer, olhe a linha, a coluna e o bloco da célula: os números que já estão ali não podem ir.",
+    "Quando você escreve um número, essa anotação some sozinha das células da linha, da coluna e do bloco dele."
+   ],
+   "ejercicios": [
+    {
+     "id": "3.1",
+     "tipo": "borrar",
+     "tablero": [
+      "12.4",
+      "3.12",
+      "21..",
+      "4321"
+     ],
+     "escritos": [
+      "..4.",
+      "....",
+      "....",
+      "...."
+     ],
+     "objetivos": [
+      [
+       1,
+       3
+      ]
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Na linha 1 há um número errado: o 4 da coluna 3, porque a linha já tem outro 4. Vá até essa célula e apague-o com Delete.",
+     "pistas": [
+      "Mova-se para a direita pela linha 1 até a coluna 3.",
+      "Pressione duas vezes a seta para a direita e depois Delete."
+     ]
+    },
+    {
+     "id": "3.2",
+     "tipo": "notas",
+     "tablero": [
+      "12..",
+      "....",
+      "....",
+      ".3.."
+     ],
+     "objetivos": [
+      [
+       2,
+       1
+      ]
+     ],
+     "inicio": [
+      2,
+      1
+     ],
+     "instruccion": "Você está na linha 2, coluna 1. Aqui ainda não se sabe qual número vai, mas se sabe quais podem ir. Faça como anotações os dois números que podem ir, com Shift e o número.",
+     "pistas": [
+      "O bloco 1 já tem o 1 e o 2, então esses não podem ir. Quais dois números sobram?",
+      "Podem ir o 3 e o 4. Pressione Shift+3 e Shift+4."
+     ]
+    },
+    {
+     "id": "3.3",
+     "tipo": "notas",
+     "tablero": [
+      "1...",
+      "..3.",
+      "....",
+      ".2.."
+     ],
+     "objetivos": [
+      [
+       3,
+       1
+      ]
+     ],
+     "inicio": [
+      3,
+      1
+     ],
+     "instruccion": "De novo: faça como anotações, na linha 3, coluna 1, todos os números que podem ir. Pressione F, C e B para ver o que há na linha, na coluna e no bloco dela.",
+     "pistas": [
+      "A coluna 1 tem o 1, e o bloco 3 tem o 2. Quais números sobram?",
+      "Podem ir o 3 e o 4. Pressione Shift+3 e Shift+4."
+     ]
+    },
+    {
+     "id": "3.4",
+     "tipo": "completar",
+     "tablero": [
+      ".2.4",
+      "3...",
+      "...3",
+      "4.2."
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Para terminar o bloco A, resolva este sudoku completo. Se tiver dúvida em uma célula, faça anotações. Lembre-se: P dá uma dica curta e Shift+P uma completa.",
+     "pistas": []
+    }
+   ]
+  }
+ ]
+}

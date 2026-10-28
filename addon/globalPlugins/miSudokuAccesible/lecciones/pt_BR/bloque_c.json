@@ -1,0 +1,166 @@
+{
+ "id": "C",
+ "titulo": "Hora de jogar",
+ "mensaje_final": "Você terminou o curso Aprender a jogar! Já sabe resolver sudokus. Agora pode jogar quantos quiser em Ferramentas, MiSudokuAccesible, Novo sudoku, e continuar praticando cada técnica com o botão Praticar.",
+ "lecciones": [
+  {
+   "id": "11",
+   "titulo": "Seu primeiro 4 por 4",
+   "explicacion": [
+    "Você já conhece todas as técnicas! Agora vai resolver sudokus inteiros, do começo ao fim.",
+    "Começamos com dois de 4 por 4. Lembre-se: em cada linha, coluna e bloco vão o 1, o 2, o 3 e o 4.",
+    "Um bom método: pressione Tab para ir a uma célula vazia e depois F, C e B. Se à linha, à coluna ou ao bloco falta um só número, você já o tem.",
+    "Nestes sudokus, as estrelas dependem de quantas dicas você pedir: 3 estrelas com nenhuma ou uma dica, 2 com até quatro, e 1 com mais. Peça as que precisar: o importante é aprender."
+   ],
+   "ejercicios": [
+    {
+     "id": "11.1",
+     "generar": {
+      "objetivo": "completar",
+      "tamano": 4,
+      "nivel": "facil",
+      "semilla": 111
+     },
+     "tipo": "completar",
+     "tablero": [
+      "..23",
+      ".24.",
+      ".31.",
+      "41.."
+     ],
+     "objetivos": [],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Resolva o sudoku inteiro. Pressione P ou Shift+P sempre que precisar de uma dica.",
+     "pistas": []
+    },
+    {
+     "id": "11.2",
+     "generar": {
+      "objetivo": "completar",
+      "tamano": 4,
+      "nivel": "medio",
+      "semilla": 112
+     },
+     "tipo": "completar",
+     "tablero": [
+      "1...",
+      "...2",
+      "3...",
+      "...3"
+     ],
+     "objetivos": [],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Resolva o sudoku inteiro. Pressione P ou Shift+P sempre que precisar de uma dica.",
+     "pistas": []
+    }
+   ]
+  },
+  {
+   "id": "12",
+   "titulo": "Seu primeiro 6 por 6",
+   "explicacion": [
+    "Agora, dois sudokus de 6 por 6, com os números de 1 a 6 e blocos de 2 linhas por 3 colunas.",
+    "Procure primeiro os últimos números: linhas, colunas ou blocos aos quais falte um só.",
+    "Depois, escolha um número e procure o único lugar dele em cada bloco. Se travar, faça anotações nas células que tenham poucos números possíveis."
+   ],
+   "ejercicios": [
+    {
+     "id": "12.1",
+     "generar": {
+      "objetivo": "completar",
+      "tamano": 6,
+      "nivel": "facil",
+      "semilla": 121
+     },
+     "tipo": "completar",
+     "tablero": [
+      "5.26.3",
+      ".3....",
+      ".2.41.",
+      ".45.2.",
+      "....3.",
+      "4.32.1"
+     ],
+     "objetivos": [],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Resolva o sudoku inteiro. Pressione P ou Shift+P sempre que precisar de uma dica.",
+     "pistas": []
+    },
+    {
+     "id": "12.2",
+     "generar": {
+      "objetivo": "completar",
+      "tamano": 6,
+      "nivel": "medio",
+      "semilla": 122
+     },
+     "tipo": "completar",
+     "tablero": [
+      "4...1.",
+      "3....5",
+      ".3...6",
+      "1...3.",
+      "2....1",
+      ".5...2"
+     ],
+     "objetivos": [],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Resolva o sudoku inteiro. Pressione P ou Shift+P sempre que precisar de uma dica.",
+     "pistas": []
+    }
+   ]
+  },
+  {
+   "id": "13",
+   "titulo": "Seu primeiro 9 por 9",
+   "explicacion": [
+    "O grande desafio: um sudoku de 9 por 9 completo! É fácil, e você já tem todas as ferramentas.",
+    "Um método para começar: primeiro procure os últimos números. Depois percorra os blocos um por um e, em cada um, procure o único lugar de cada número que falta.",
+    "Quando você não achar mais nada assim, procure células onde caiba um só número, e use anotações para não precisar lembrar de tudo.",
+    "Sem pressa. Se você se perder, F5 diz quantas células faltam, e P diz onde olhar."
+   ],
+   "ejercicios": [
+    {
+     "id": "13.1",
+     "generar": {
+      "objetivo": "completar",
+      "tamano": 9,
+      "nivel": "facil",
+      "semilla": 131
+     },
+     "tipo": "completar",
+     "tablero": [
+      ".2...7.8.",
+      "..8...9.1",
+      "9.78.45.3",
+      ".6.4..7.5",
+      "..41.62..",
+      "2.1..8.4.",
+      "5.26.31.7",
+      "4.9...3..",
+      ".3.2...5."
+     ],
+     "objetivos": [],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Resolva o sudoku inteiro. Pressione P ou Shift+P sempre que precisar de uma dica.",
+     "pistas": []
+    }
+   ]
+  }
+ ]
+}

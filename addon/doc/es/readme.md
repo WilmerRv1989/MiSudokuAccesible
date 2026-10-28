@@ -148,7 +148,7 @@ Herramientas, MiSudokuAccesible, «Sudoku del día»: cada día hay un sudoku nu
 
 ## Aprender a jugar
 
-Herramientas, MiSudokuAccesible, «Aprender a jugar...». Es un curso guiado de 13 lecciones, pensado también para niñas y niños. Por ahora, las lecciones solo están en español.
+Herramientas, MiSudokuAccesible, «Aprender a jugar...». Es un curso guiado de 13 lecciones, pensado también para niñas y niños. Por ahora, las lecciones están en español y en portugués de Brasil: se muestran en portugués si NVDA está en portugués de Brasil, y en español en los demás idiomas.
 
 1. La lista muestra las lecciones, agrupadas en bloques, con su estado: pendiente, en curso o completada con sus estrellas. Elige una y pulsa Empezar.
 2. Se abre la explicación de la lección. Léela con las flechas o deja que NVDA la lea, y pulsa Empezar.

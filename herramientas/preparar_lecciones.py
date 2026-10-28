@@ -8,10 +8,12 @@
 Cada ejercicio con «generar»: {"objetivo": ..., "tamano": ..., "semilla": ...} (y «nivel» en los
 sudokus enteros, con objetivo «completar») se genera con
 `sudoku/curso/practica.py` y se escriben su tablero, su casilla, su instrucción y sus pistas
-(en español, con las traducciones del archivo .po). Con la misma semilla sale siempre el mismo.
+(en el idioma elegido, con las traducciones del archivo .po). Con la misma semilla sale siempre el mismo.
 
-Uso (desde la raíz del repositorio, después de actualizar el .po):
+Uso (desde la raíz del repositorio, después de actualizar el .po). El idioma es el nombre de la carpeta
+de `lecciones/` y de `locale/` («es» si no se indica):
 	uv run python herramientas/preparar_lecciones.py
+	uv run python herramientas/preparar_lecciones.py pt_BR
 """
 
 import glob
@@ -32,7 +34,7 @@ from sudoku.generador import Nivel  # noqa: E402
 from sudoku.curso.practica import generar_ejercicio  # noqa: E402
 from sudoku.grupos import FORMAS  # noqa: E402
 
-_PO_ES = os.path.join(_COMPLEMENTO, "..", "..", "locale", "es", "LC_MESSAGES", "nvda.po")
+IDIOMA_POR_DEFECTO = "es"
 
 
 def _filas(tablero: tuple[int, ...], lado: int) -> list[str]:
@@ -73,8 +75,10 @@ def _datos(ejercicio: Ejercicio, generar: dict | None, lado: int) -> dict:
 
 
 def main() -> None:
-	idioma.configurar(*po.traducciones(os.path.normpath(_PO_ES)))
-	for ruta in sorted(glob.glob(os.path.join(_COMPLEMENTO, "lecciones", "es", "bloque_*.json"))):
+	codigo = sys.argv[1] if len(sys.argv) > 1 else IDIOMA_POR_DEFECTO
+	ruta_po = os.path.join(_COMPLEMENTO, "..", "..", "locale", codigo, "LC_MESSAGES", "nvda.po")
+	idioma.configurar(*po.traducciones(os.path.normpath(ruta_po)))
+	for ruta in sorted(glob.glob(os.path.join(_COMPLEMENTO, "lecciones", codigo, "bloque_*.json"))):
 		with open(ruta, encoding="utf-8") as archivo:
 			bloque = json.load(archivo)
 		cambiados = 0

@@ -1,0 +1,1292 @@
+{
+ "id": "B",
+ "titulo": "As técnicas",
+ "mensaje_final": "Você terminou o bloco B! Já conhece as técnicas para resolver sudokus fáceis, médios e difíceis. Quando quiser, continue praticando com o botão Praticar de cada lição.",
+ "lecciones": [
+  {
+   "id": "4",
+   "titulo": "Último número",
+   "explicacion": [
+    "Agora passamos para tabuleiros maiores: de 6 por 6, com os números de 1 a 6, e de 9 por 9, com os números de 1 a 9. A regra é a mesma: em cada linha, coluna e bloco vão todos os números, sem repetir.",
+    "A técnica mais fácil é o último número: se a uma linha, uma coluna ou um bloco falta só um número, você já sabe qual é e onde vai.",
+    "Pressione F, C ou B para saber quais números faltam. Se falta um só, é esse!",
+    "Nestes exercícios eu não digo a célula: digo onde olhar. Encontrá-la faz parte do jogo."
+   ],
+   "practica": {
+    "objetivo": "ultimo_numero",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "4.1",
+     "generar": {
+      "objetivo": "ultimo_numero",
+      "tamano": 6,
+      "semilla": 41
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "513426",
+      "42.531",
+      "...6.4",
+      "645...",
+      "3.2...",
+      ".542.3"
+     ],
+     "objetivos": [
+      [
+       2,
+       3
+      ]
+     ],
+     "inicio": [
+      1,
+      1
+     ],
+     "instruccion": "Olhe no bloco 1: falta só um número. Encontre-o e escreva.",
+     "pistas": [
+      "Pressione B no bloco 1 para ouvir qual número falta.",
+      "Só falta o 6 no bloco 1: ele vai na linha 2, coluna 3."
+     ],
+     "orientacion": "Olhe no bloco 1: falta só um número."
+    },
+    {
+     "id": "4.2",
+     "generar": {
+      "objetivo": "ultimo_numero",
+      "tamano": 9,
+      "semilla": 42
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "498321657",
+      "365974281",
+      "127568394",
+      "256143.7.",
+      "78.295.46",
+      "94.687532",
+      "872456...",
+      "539712468",
+      "614839..5"
+     ],
+     "objetivos": [
+      [
+       6,
+       3
+      ]
+     ],
+     "inicio": [
+      6,
+      1
+     ],
+     "instruccion": "Olhe na linha 6: falta só um número. Encontre-o e escreva.",
+     "pistas": [
+      "Pressione F na linha 6 para ouvir qual número falta.",
+      "Só falta o 1 na linha 6: ele vai na linha 6, coluna 3."
+     ],
+     "orientacion": "Olhe na linha 6: falta só um número."
+    },
+    {
+     "id": "4.3",
+     "generar": {
+      "objetivo": "ultimo_numero",
+      "tamano": 9,
+      "semilla": 43
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "768391425",
+      "253478916",
+      "914652738",
+      "695824371",
+      "472513869",
+      "831967542",
+      ".4678.293",
+      "389246157",
+      ".27.39684"
+     ],
+     "objetivos": [
+      [
+       9,
+       4
+      ]
+     ],
+     "inicio": [
+      1,
+      4
+     ],
+     "instruccion": "Olhe na coluna 4: falta só um número. Encontre-o e escreva.",
+     "pistas": [
+      "Pressione C na coluna 4 para ouvir qual número falta.",
+      "Só falta o 1 na coluna 4: ele vai na linha 9, coluna 4."
+     ],
+     "orientacion": "Olhe na coluna 4: falta só um número."
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "titulo": "Único lugar em um bloco",
+   "explicacion": [
+    "Esta é a técnica mais usada. Escolha um número, por exemplo o 7, e um bloco onde ele ainda não esteja.",
+    "Olhe as células vazias do bloco. Em algumas o 7 não pode ir, porque já há um 7 na linha ou na coluna delas. Se sobra uma só célula onde ele pode ir, ali vai o 7!",
+    "Para saber se uma célula pode ter o 7, vá até ela e pressione F e C: se o 7 aparece na linha ou na coluna, ali ele não vai."
+   ],
+   "practica": {
+    "objetivo": "unico_lugar_bloque",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "5.1",
+     "generar": {
+      "objetivo": "unico_lugar_bloque",
+      "tamano": 6,
+      "semilla": 51
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "41....",
+      "...4.1",
+      "23.5.4",
+      "1.4.63",
+      "6.5...",
+      "....45"
+     ],
+     "objetivos": [
+      [
+       4,
+       2
+      ]
+     ],
+     "inicio": [
+      3,
+      1
+     ],
+     "instruccion": "Olhe no bloco 3: há um número que só cabe em um lugar. Encontre-o e escreva.",
+     "pistas": [
+      "Procure o 5: ele só cabe em uma célula no bloco 3.",
+      "O 5 só cabe na linha 4, coluna 2: as outras células vazias no bloco 3 já têm um 5 na linha, na coluna ou no bloco."
+     ],
+     "orientacion": "Olhe no bloco 3: há um número que só cabe em um lugar."
+    },
+    {
+     "id": "5.2",
+     "generar": {
+      "objetivo": "unico_lugar_bloque",
+      "tamano": 9,
+      "semilla": 52
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "7..418935",
+      "491352786",
+      "583796412",
+      "..48.3159",
+      "3.91.52.8",
+      "8152.96.3",
+      ".576.4..1",
+      "94.5.1827",
+      "13.9.7..4"
+     ],
+     "objetivos": [
+      [
+       9,
+       3
+      ]
+     ],
+     "inicio": [
+      7,
+      1
+     ],
+     "instruccion": "Olhe no bloco 7: há um número que só cabe em um lugar. Encontre-o e escreva.",
+     "pistas": [
+      "Procure o 8: ele só cabe em uma célula no bloco 7.",
+      "O 8 só cabe na linha 9, coluna 3: as outras células vazias no bloco 7 já têm um 8 na linha, na coluna ou no bloco."
+     ],
+     "orientacion": "Olhe no bloco 7: há um número que só cabe em um lugar."
+    },
+    {
+     "id": "5.3",
+     "generar": {
+      "objetivo": "unico_lugar_bloque",
+      "tamano": 9,
+      "semilla": 53
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "1.97..843",
+      "2.74..691",
+      "8.41.9527",
+      "59..41372",
+      "37....418",
+      "41.37.965",
+      "94.2.71.6",
+      "7.39162.4",
+      "621..47.9"
+     ],
+     "objetivos": [
+      [
+       5,
+       5
+      ]
+     ],
+     "inicio": [
+      4,
+      4
+     ],
+     "instruccion": "Olhe no bloco 5: há um número que só cabe em um lugar. Encontre-o e escreva.",
+     "pistas": [
+      "Procure o 9: ele só cabe em uma célula no bloco 5.",
+      "O 9 só cabe na linha 5, coluna 5: as outras células vazias no bloco 5 já têm um 9 na linha, na coluna ou no bloco."
+     ],
+     "orientacion": "Olhe no bloco 5: há um número que só cabe em um lugar."
+    }
+   ]
+  },
+  {
+   "id": "6",
+   "titulo": "Único lugar em linhas e colunas",
+   "explicacion": [
+    "O mesmo vale para uma linha ou uma coluna: escolha um número que falte na linha e procure onde ele pode ir.",
+    "Em cada célula vazia da linha, o número não pode ir se já estiver na coluna ou no bloco dela. Se sobra um só lugar, ali ele vai.",
+    "Esta técnica serve quando olhar os blocos não basta."
+   ],
+   "practica": {
+    "objetivo": "unico_lugar_linea",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "6.1",
+     "generar": {
+      "objetivo": "unico_lugar_linea",
+      "tamano": 6,
+      "semilla": 61
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "156243",
+      "432516",
+      "524361",
+      "361425",
+      ".1.6.4",
+      ".431.2"
+     ],
+     "objetivos": [
+      [
+       6,
+       5
+      ]
+     ],
+     "inicio": [
+      6,
+      1
+     ],
+     "instruccion": "Olhe na linha 6: há um número que só cabe em um lugar. Encontre-o e escreva.",
+     "pistas": [
+      "Procure o 5: ele só cabe em uma célula na linha 6.",
+      "O 5 só cabe na linha 6, coluna 5: as outras células vazias na linha 6 já têm um 5 na linha, na coluna ou no bloco."
+     ],
+     "orientacion": "Olhe na linha 6: há um número que só cabe em um lugar."
+    },
+    {
+     "id": "6.2",
+     "generar": {
+      "objetivo": "unico_lugar_linea",
+      "tamano": 9,
+      "semilla": 62
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "194687235",
+      "783952...",
+      ".6.413789",
+      "..8396.27",
+      "...578...",
+      ".7.1245.8",
+      "927.35.6.",
+      "....4.8.2",
+      "84.26.97."
+     ],
+     "objetivos": [
+      [
+       9,
+       3
+      ]
+     ],
+     "inicio": [
+      9,
+      1
+     ],
+     "instruccion": "Olhe na linha 9: há um número que só cabe em um lugar. Encontre-o e escreva.",
+     "pistas": [
+      "Procure o 5: ele só cabe em uma célula na linha 9.",
+      "O 5 só cabe na linha 9, coluna 3: as outras células vazias na linha 9 já têm um 5 na linha, na coluna ou no bloco."
+     ],
+     "orientacion": "Olhe na linha 9: há um número que só cabe em um lugar."
+    },
+    {
+     "id": "6.3",
+     "generar": {
+      "objetivo": "unico_lugar_linea",
+      "tamano": 9,
+      "semilla": 63
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "642851973",
+      "839.62451",
+      "751.39286",
+      ".8362719.",
+      "91.3856.2",
+      ".2619483.",
+      "178243569",
+      ".6.97831.",
+      "39.516.2."
+     ],
+     "objetivos": [
+      [
+       8,
+       3
+      ]
+     ],
+     "inicio": [
+      1,
+      3
+     ],
+     "instruccion": "Olhe na coluna 3: há um número que só cabe em um lugar. Encontre-o e escreva.",
+     "pistas": [
+      "Procure o 5: ele só cabe em uma célula na coluna 3.",
+      "O 5 só cabe na linha 8, coluna 3: as outras células vazias na coluna 3 já têm um 5 na linha, na coluna ou no bloco."
+     ],
+     "orientacion": "Olhe na coluna 3: há um número que só cabe em um lugar."
+    }
+   ]
+  },
+  {
+   "id": "7",
+   "titulo": "Único número",
+   "explicacion": [
+    "Agora ao contrário: em vez de escolher um número, escolha uma célula vazia e pergunte-se quais números podem ir nela.",
+    "Pressione F, C e B: os números que já estão na linha, na coluna ou no bloco dela não podem ir. Se sobra só um, é esse!",
+    "Esta técnica custa um pouco mais, porque é preciso juntar o que dizem a linha, a coluna e o bloco. As anotações ajudam, como você verá na próxima lição."
+   ],
+   "practica": {
+    "objetivo": "unico_numero",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "7.1",
+     "generar": {
+      "objetivo": "unico_numero",
+      "tamano": 6,
+      "semilla": 71
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "...31.",
+      ".135.2",
+      "2...3.",
+      ".4...1",
+      "5.614.",
+      ".34..."
+     ],
+     "objetivos": [
+      [
+       2,
+       5
+      ]
+     ],
+     "inicio": [
+      2,
+      1
+     ],
+     "instruccion": "Olhe a linha 2: há uma célula onde cabe só um número. Encontre-o e escreva.",
+     "pistas": [
+      "Percorra as células vazias da linha 2 e pressione C e B em cada uma: em uma delas cabe só um número.",
+      "Só o 6 cabe na linha 2, coluna 5: os outros números já estão na linha, na coluna ou no bloco dela."
+     ],
+     "orientacion": "Olhe a linha 2: há uma célula onde cabe só um número."
+    },
+    {
+     "id": "7.2",
+     "generar": {
+      "objetivo": "unico_numero",
+      "tamano": 9,
+      "semilla": 72
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "4637891..",
+      "857214.63",
+      "219536478",
+      "7....16.4",
+      "....4....",
+      "5.26....1",
+      "9.417..8.",
+      "6..4.831.",
+      "..19.5.4."
+     ],
+     "objetivos": [
+      [
+       9,
+       1
+      ]
+     ],
+     "inicio": [
+      9,
+      1
+     ],
+     "instruccion": "Olhe a linha 9: há uma célula onde cabe só um número. Encontre-o e escreva.",
+     "pistas": [
+      "Percorra as células vazias da linha 9 e pressione C e B em cada uma: em uma delas cabe só um número.",
+      "Só o 3 cabe na linha 9, coluna 1: os outros números já estão na linha, na coluna ou no bloco dela."
+     ],
+     "orientacion": "Olhe a linha 9: há uma célula onde cabe só um número."
+    },
+    {
+     "id": "7.3",
+     "generar": {
+      "objetivo": "unico_numero",
+      "tamano": 9,
+      "semilla": 73
+     },
+     "tipo": "escribir",
+     "tablero": [
+      "147269853",
+      "625873194",
+      "893...762",
+      "278936415",
+      "416725389",
+      "359148627",
+      "732......",
+      "981...2.6",
+      "56438...."
+     ],
+     "objetivos": [
+      [
+       7,
+       8
+      ]
+     ],
+     "inicio": [
+      7,
+      1
+     ],
+     "instruccion": "Olhe a linha 7: há uma célula onde cabe só um número. Encontre-o e escreva.",
+     "pistas": [
+      "Percorra as células vazias da linha 7 e pressione C e B em cada uma: em uma delas cabe só um número.",
+      "Só o 4 cabe na linha 7, coluna 8: os outros números já estão na linha, na coluna ou no bloco dela."
+     ],
+     "orientacion": "Olhe a linha 7: há uma célula onde cabe só um número."
+    }
+   ]
+  },
+  {
+   "id": "8",
+   "titulo": "As anotações como ajuda",
+   "explicacion": [
+    "Nos sudokus grandes não dá para lembrar de tudo. As anotações servem para marcar quais números podem ir em uma célula.",
+    "Para cada número, veja se ele já está na linha, na coluna ou no bloco da célula. Se não estiver, faça dele uma anotação com Shift e o número. N lê as anotações da célula.",
+    "Quando uma célula tem uma só anotação, esse é o número dela. E quando você escreve um número, essa anotação some sozinha das células da linha, da coluna e do bloco dele."
+   ],
+   "practica": {
+    "objetivo": "notas",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "8.1",
+     "generar": {
+      "objetivo": "notas",
+      "tamano": 6,
+      "semilla": 81
+     },
+     "tipo": "notas",
+     "tablero": [
+      "134256",
+      "652341",
+      "3215..",
+      "465132",
+      "24....",
+      "51..23"
+     ],
+     "objetivos": [
+      [
+       5,
+       3
+      ]
+     ],
+     "inicio": [
+      5,
+      3
+     ],
+     "instruccion": "Escreva como anotações na linha 5, coluna 3 todos os números que podem ir ali.",
+     "pistas": [
+      "Pressione F, C e B para ouvir quais números já estão na linha, na coluna e no bloco dela.",
+      "Os números que podem ir são 3 e 6."
+     ]
+    },
+    {
+     "id": "8.2",
+     "generar": {
+      "objetivo": "notas",
+      "tamano": 9,
+      "semilla": 82
+     },
+     "tipo": "notas",
+     "tablero": [
+      "138692745",
+      "275431968",
+      "964857231",
+      "4.9.7..53",
+      "3.6.4...7",
+      "85731.4..",
+      ".81.643.2",
+      "74352..16",
+      ".92183..."
+     ],
+     "objetivos": [
+      [
+       5,
+       2
+      ]
+     ],
+     "inicio": [
+      5,
+      2
+     ],
+     "instruccion": "Escreva como anotações na linha 5, coluna 2 todos os números que podem ir ali.",
+     "pistas": [
+      "Pressione F, C e B para ouvir quais números já estão na linha, na coluna e no bloco dela.",
+      "Os números que podem ir são 1 e 2."
+     ]
+    },
+    {
+     "id": "8.3",
+     "generar": {
+      "objetivo": "notas",
+      "tamano": 9,
+      "semilla": 83
+     },
+     "tipo": "notas",
+     "tablero": [
+      "678591234",
+      "..4276918",
+      "291483576",
+      "1..629.47",
+      "742158693",
+      "869734125",
+      "..73....2",
+      "42.96....",
+      ".168.27.."
+     ],
+     "objetivos": [
+      [
+       8,
+       3
+      ]
+     ],
+     "inicio": [
+      8,
+      3
+     ],
+     "instruccion": "Escreva como anotações na linha 8, coluna 3 todos os números que podem ir ali.",
+     "pistas": [
+      "Pressione F, C e B para ouvir quais números já estão na linha, na coluna e no bloco dela.",
+      "Os números que podem ir são 3 e 5."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9",
+   "titulo": "Interseção",
+   "explicacion": [
+    "As duas técnicas que restam são diferentes: elas não dizem onde um número vai, e sim onde ele não pode ir. Esse descarte se faz com as anotações.",
+    "Imagine que no bloco 2 o 7 só pode ir em duas células, e as duas estão na linha 3. Você não sabe em qual das duas ele vai, mas o 7 do bloco 2 com certeza estará na linha 3.",
+    "Então, no resto da linha 3, fora do bloco 2, não pode haver outro 7: você pode tirar a anotação 7 dessas células. Isso é uma interseção.",
+    "Também funciona ao contrário: se em uma linha um número só pode ir dentro de um mesmo bloco, você pode tirar essa anotação do resto do bloco.",
+    "Cada exercício tem dois passos, e o tabuleiro já vem com as anotações feitas. No passo 1 eu digo qual anotação tirar e em qual célula: tire-a com Shift e o número. No passo 2, com essa anotação tirada, aparece um número que você já pode escrever."
+   ],
+   "practica": {
+    "objetivo": "interseccion",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "9.1",
+     "generar": {
+      "objetivo": "interseccion",
+      "tamano": 9,
+      "semilla": 91
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "1.596..48",
+      ".6348519.",
+      "498....65",
+      "6542.89..",
+      "839.5.62.",
+      "..169.58.",
+      "542..6879",
+      "317829456",
+      "986547..."
+     ],
+     "objetivos": [
+      [
+       3,
+       7
+      ]
+     ],
+     "inicio": [
+      3,
+      7
+     ],
+     "instruccion": "Passo 1 de 2. Veja: no bloco 2, o 7 só pode ir na linha 3, coluna 4 e na linha 3, coluna 5, que também estão na linha 3. Então, na linha 3, não pode haver outro 7 fora dessas células. Remova a anotação 7 na linha 3, coluna 7.",
+     "pistas": [
+      "As anotações são removidas com Shift e o número, as mesmas teclas que as adicionam. N lê as anotações de uma célula.",
+      "Remova a anotação 7 na linha 3, coluna 7."
+     ],
+     "orientacion": "Remova a anotação 7 na linha 3, coluna 7.",
+     "notas": [
+      [
+       1,
+       6,
+       "23"
+      ],
+      [
+       1,
+       7,
+       "237"
+      ],
+      [
+       3,
+       4,
+       "137"
+      ],
+      [
+       3,
+       5,
+       "137"
+      ],
+      [
+       3,
+       6,
+       "123"
+      ],
+      [
+       3,
+       7,
+       "237"
+      ],
+      [
+       9,
+       7,
+       "23"
+      ]
+     ],
+     "quitar": [
+      [
+       3,
+       7,
+       7
+      ]
+     ],
+     "segundo": {
+      "id": "9.1",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        1,
+        7
+       ]
+      ],
+      "inicio": [
+       3,
+       7
+      ],
+      "instruccion": "Passo 2 de 2. Agora o 7 só cabe em uma célula na coluna 7. Encontre-a e escreva.",
+      "pistas": [
+       "Pressione N nas células vazias na coluna 7: só uma ainda tem a anotação 7.",
+       "O 7 vai na linha 1, coluna 7."
+      ],
+      "orientacion": "O 7 agora só cabe em uma célula na coluna 7."
+     }
+    },
+    {
+     "id": "9.2",
+     "generar": {
+      "objetivo": "interseccion",
+      "tamano": 9,
+      "semilla": 92
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "74..816..",
+      "863.957..",
+      ".2..76...",
+      "974..8.62",
+      "..8.294.7",
+      ".3...798.",
+      "...7...9.",
+      ".9781.2.6",
+      "...9...73"
+     ],
+     "objetivos": [
+      [
+       4,
+       4
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "inicio": [
+      4,
+      4
+     ],
+     "instruccion": "Passo 1 de 2. Veja: no bloco 2, o 3 só pode ir na linha 1, coluna 4 e na linha 3, coluna 4, que também estão na coluna 4. Então, na coluna 4, não pode haver outro 3 fora dessas células. Remova a anotação 3 na linha 4, coluna 4. Remova a anotação 3 na linha 5, coluna 4.",
+     "pistas": [
+      "As anotações são removidas com Shift e o número, as mesmas teclas que as adicionam. N lê as anotações de uma célula.",
+      "Remova a anotação 3 na linha 4, coluna 4. Remova a anotação 3 na linha 5, coluna 4."
+     ],
+     "orientacion": "Remova a anotação 3 na linha 4, coluna 4. Remova a anotação 3 na linha 5, coluna 4.",
+     "notas": [
+      [
+       1,
+       4,
+       "23"
+      ],
+      [
+       2,
+       4,
+       "24"
+      ],
+      [
+       3,
+       4,
+       "34"
+      ],
+      [
+       4,
+       4,
+       "135"
+      ],
+      [
+       4,
+       5,
+       "35"
+      ],
+      [
+       5,
+       4,
+       "1356"
+      ],
+      [
+       6,
+       4,
+       "1456"
+      ],
+      [
+       6,
+       5,
+       "456"
+      ]
+     ],
+     "quitar": [
+      [
+       4,
+       4,
+       3
+      ],
+      [
+       5,
+       4,
+       3
+      ]
+     ],
+     "segundo": {
+      "id": "9.2",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        4,
+        5
+       ]
+      ],
+      "inicio": [
+       4,
+       4
+      ],
+      "instruccion": "Passo 2 de 2. Agora o 3 só cabe em uma célula no bloco 5. Encontre-a e escreva.",
+      "pistas": [
+       "Pressione N nas células vazias no bloco 5: só uma ainda tem a anotação 3.",
+       "O 3 vai na linha 4, coluna 5."
+      ],
+      "orientacion": "O 3 agora só cabe em uma célula no bloco 5."
+     }
+    },
+    {
+     "id": "9.3",
+     "generar": {
+      "objetivo": "interseccion",
+      "tamano": 9,
+      "semilla": 93
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "5971...43",
+      "1..97.6..",
+      "268543197",
+      "9...1..7.",
+      "781235469",
+      ".2.79...1",
+      ".1...978.",
+      "8.2..791.",
+      "679..1..4"
+     ],
+     "objetivos": [
+      [
+       9,
+       4
+      ]
+     ],
+     "inicio": [
+      9,
+      4
+     ],
+     "instruccion": "Passo 1 de 2. Veja: no bloco 9, o 3 só pode ir na linha 9, coluna 7 e na linha 9, coluna 8, que também estão na linha 9. Então, na linha 9, não pode haver outro 3 fora dessas células. Remova a anotação 3 na linha 9, coluna 4.",
+     "pistas": [
+      "As anotações são removidas com Shift e o número, as mesmas teclas que as adicionam. N lê as anotações de uma célula.",
+      "Remova a anotação 3 na linha 9, coluna 4."
+     ],
+     "orientacion": "Remova a anotação 3 na linha 9, coluna 4.",
+     "notas": [
+      [
+       4,
+       4,
+       "468"
+      ],
+      [
+       7,
+       4,
+       "346"
+      ],
+      [
+       7,
+       5,
+       "256"
+      ],
+      [
+       7,
+       9,
+       "256"
+      ],
+      [
+       8,
+       4,
+       "346"
+      ],
+      [
+       8,
+       5,
+       "56"
+      ],
+      [
+       8,
+       9,
+       "56"
+      ],
+      [
+       9,
+       4,
+       "38"
+      ],
+      [
+       9,
+       5,
+       "258"
+      ],
+      [
+       9,
+       7,
+       "235"
+      ],
+      [
+       9,
+       8,
+       "235"
+      ]
+     ],
+     "quitar": [
+      [
+       9,
+       4,
+       3
+      ]
+     ],
+     "segundo": {
+      "id": "9.3",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        9,
+        4
+       ]
+      ],
+      "inicio": [
+       9,
+       4
+      ],
+      "instruccion": "Passo 2 de 2. Agora só resta uma anotação na linha 9, coluna 4. Escreva esse número.",
+      "pistas": [
+       "Pressione N na linha 9, coluna 4: só resta uma anotação.",
+       "O 8 vai na linha 9, coluna 4."
+      ],
+      "orientacion": "Escreva na linha 9, coluna 4."
+     }
+    }
+   ]
+  },
+  {
+   "id": "10",
+   "titulo": "Par",
+   "explicacion": [
+    "Imagine duas células de uma coluna que só têm as anotações 1 e 3. Uma terá o 1 e a outra o 3, embora você ainda não saiba qual é qual.",
+    "Então nenhuma outra célula dessa coluna pode ter um 1 nem um 3: você pode tirar essas anotações do resto da coluna. Isso é um par.",
+    "Também funciona ao contrário: se em uma linha o 1 e o 3 só cabem nas mesmas duas células, essas duas células não podem ter outros números, e você pode tirar as outras anotações delas.",
+    "Como na interseção, cada exercício tem dois passos: primeiro você tira as anotações que são descartadas, e depois escreve o número que fica claro."
+   ],
+   "practica": {
+    "objetivo": "pareja",
+    "tamano": 9
+   },
+   "ejercicios": [
+    {
+     "id": "10.1",
+     "generar": {
+      "objetivo": "pareja",
+      "tamano": 9,
+      "semilla": 101
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "9321.....",
+      "8479.5..2",
+      "15682.9.7",
+      ".63...894",
+      ".843.9...",
+      "519...7.3",
+      "42.79.356",
+      "67.4..2.9",
+      "39...247."
+     ],
+     "objetivos": [
+      [
+       6,
+       6
+      ]
+     ],
+     "inicio": [
+      6,
+      6
+     ],
+     "instruccion": "Passo 1 de 2. Veja: no bloco 5, o 4 e o 8 só podem ir na linha 6, coluna 5 e na linha 6, coluna 6. Então essas duas células não podem ter outros números. Remova a anotação 6 na linha 6, coluna 6.",
+     "pistas": [
+      "As anotações são removidas com Shift e o número, as mesmas teclas que as adicionam. N lê as anotações de uma célula.",
+      "Remova a anotação 6 na linha 6, coluna 6."
+     ],
+     "orientacion": "Remova a anotação 6 na linha 6, coluna 6.",
+     "notas": [
+      [
+       1,
+       6,
+       "467"
+      ],
+      [
+       3,
+       6,
+       "34"
+      ],
+      [
+       4,
+       4,
+       "25"
+      ],
+      [
+       4,
+       5,
+       "157"
+      ],
+      [
+       4,
+       6,
+       "17"
+      ],
+      [
+       5,
+       5,
+       "1567"
+      ],
+      [
+       6,
+       4,
+       "26"
+      ],
+      [
+       6,
+       5,
+       "468"
+      ],
+      [
+       6,
+       6,
+       "468"
+      ],
+      [
+       7,
+       6,
+       "18"
+      ],
+      [
+       8,
+       6,
+       "138"
+      ]
+     ],
+     "quitar": [
+      [
+       6,
+       6,
+       6
+      ]
+     ],
+     "segundo": {
+      "id": "10.1",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        1,
+        6
+       ]
+      ],
+      "inicio": [
+       6,
+       6
+      ],
+      "instruccion": "Passo 2 de 2. Agora o 6 só cabe em uma célula na coluna 6. Encontre-a e escreva.",
+      "pistas": [
+       "Pressione N nas células vazias na coluna 6: só uma ainda tem a anotação 6.",
+       "O 6 vai na linha 1, coluna 6."
+      ],
+      "orientacion": "O 6 agora só cabe em uma célula na coluna 6."
+     }
+    },
+    {
+     "id": "10.2",
+     "generar": {
+      "objetivo": "pareja",
+      "tamano": 9,
+      "semilla": 102
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "8....67.5",
+      "795.8..36",
+      "4.657.928",
+      "248..7.53",
+      "..1...8.7",
+      ".678..2.4",
+      "179..85.2",
+      "684125379",
+      "...7.9.81"
+     ],
+     "objetivos": [
+      [
+       2,
+       6
+      ]
+     ],
+     "inicio": [
+      2,
+      6
+     ],
+     "instruccion": "Passo 1 de 2. Veja na coluna 6: as células na linha 3, coluna 6 e na linha 6, coluna 6 só aceitam o 1 e o 3. Então, na coluna 6, nenhuma outra célula pode ter um 1 ou um 3. Remova a anotação 1 na linha 2, coluna 6.",
+     "pistas": [
+      "As anotações são removidas com Shift e o número, as mesmas teclas que as adicionam. N lê as anotações de uma célula.",
+      "Remova a anotação 1 na linha 2, coluna 6."
+     ],
+     "orientacion": "Remova a anotação 1 na linha 2, coluna 6.",
+     "notas": [
+      [
+       2,
+       4,
+       "24"
+      ],
+      [
+       2,
+       6,
+       "124"
+      ],
+      [
+       2,
+       7,
+       "14"
+      ],
+      [
+       3,
+       6,
+       "13"
+      ],
+      [
+       5,
+       6,
+       "234"
+      ],
+      [
+       6,
+       6,
+       "13"
+      ]
+     ],
+     "quitar": [
+      [
+       2,
+       6,
+       1
+      ]
+     ],
+     "segundo": {
+      "id": "10.2",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        2,
+        7
+       ]
+      ],
+      "inicio": [
+       2,
+       6
+      ],
+      "instruccion": "Passo 2 de 2. Agora o 1 só cabe em uma célula na linha 2. Encontre-a e escreva.",
+      "pistas": [
+       "Pressione N nas células vazias na linha 2: só uma ainda tem a anotação 1.",
+       "O 1 vai na linha 2, coluna 7."
+      ],
+      "orientacion": "O 1 agora só cabe em uma célula na linha 2."
+     }
+    },
+    {
+     "id": "10.3",
+     "generar": {
+      "objetivo": "pareja",
+      "tamano": 9,
+      "semilla": 103
+     },
+     "tipo": "quitar_notas",
+     "tablero": [
+      "...3548.7",
+      "4..17...2",
+      "7.39...14",
+      "34.7....9",
+      "8.62.5473",
+      "5..4.3.86",
+      ".3....9.8",
+      "...839..5",
+      "..8.4...1"
+     ],
+     "objetivos": [
+      [
+       4,
+       6
+      ]
+     ],
+     "inicio": [
+      4,
+      6
+     ],
+     "instruccion": "Passo 1 de 2. Veja no bloco 5: as células na linha 5, coluna 5 e na linha 6, coluna 5 só aceitam o 1 e o 9. Então, no bloco 5, nenhuma outra célula pode ter um 1 ou um 9. Remova a anotação 1 na linha 4, coluna 6.",
+     "pistas": [
+      "As anotações são removidas com Shift e o número, as mesmas teclas que as adicionam. N lê as anotações de uma célula.",
+      "Remova a anotação 1 na linha 4, coluna 6."
+     ],
+     "orientacion": "Remova a anotação 1 na linha 4, coluna 6.",
+     "notas": [
+      [
+       2,
+       6,
+       "68"
+      ],
+      [
+       3,
+       6,
+       "268"
+      ],
+      [
+       4,
+       5,
+       "168"
+      ],
+      [
+       4,
+       6,
+       "168"
+      ],
+      [
+       5,
+       5,
+       "19"
+      ],
+      [
+       6,
+       5,
+       "19"
+      ],
+      [
+       7,
+       6,
+       "1267"
+      ],
+      [
+       9,
+       6,
+       "267"
+      ]
+     ],
+     "quitar": [
+      [
+       4,
+       6,
+       1
+      ]
+     ],
+     "segundo": {
+      "id": "10.3",
+      "tipo": "escribir",
+      "objetivos": [
+       [
+        7,
+        6
+       ]
+      ],
+      "inicio": [
+       4,
+       6
+      ],
+      "instruccion": "Passo 2 de 2. Agora o 1 só cabe em uma célula na coluna 6. Encontre-a e escreva.",
+      "pistas": [
+       "Pressione N nas células vazias na coluna 6: só uma ainda tem a anotação 1.",
+       "O 1 vai na linha 7, coluna 6."
+      ],
+      "orientacion": "O 1 agora só cabe em uma célula na coluna 6."
+     }
+    }
+   ]
+  }
+ ]
+}

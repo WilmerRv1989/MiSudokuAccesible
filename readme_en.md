@@ -6,7 +6,7 @@ Hi, I'm Wilmer. I have always wanted to play sudoku: it is a wonderful way to pr
 
 MiSudokuAccesible is the second game in my collection for NVDA, after [MiAjedrezAccesible](https://github.com/WilmerRv1989/MiAjedrezAccesible). I made it with two kinds of players in mind: anyone who wants a good sudoku with NVDA, and children who are just starting to learn. That is why it does not only let you play: it teaches you how to think through each move.
 
-* Full manual, in Spanish: [addon/doc/es/readme.md](addon/doc/es/readme.md).
+* Full manual, in Spanish: [addon/doc/es/readme.md](addon/doc/es/readme.md), and in Brazilian Portuguese: [addon/doc/pt_BR/readme.md](addon/doc/pt_BR/readme.md).
 * Versión en español: [readme.md](readme.md).
 
 ## What you will find
@@ -15,7 +15,7 @@ MiSudokuAccesible is the second game in my collection for NVDA, after [MiAjedrez
 * **Mini sudokus of 4 by 4 and 6 by 6**, perfect for beginners and for children.
 * **Hints that teach.** Press P and I will tell you where to look; press Shift+P and I will explain which number goes where, and why. Hints never write the number for you: finding it is the fun part.
 * **Help on or off.** When you feel ready, play without hints or clash warnings, just like on paper.
-* **Learn to play**, a guided course of 13 lessons: from the rules, to moving around the board, to intersections and pairs, with endless practice of each technique. For now, the course is in Spanish only.
+* **Learn to play**, a guided course of 13 lessons: from the rules, to moving around the board, to intersections and pairs, with endless practice of each technique. For now, the course is in Spanish and Brazilian Portuguese.
 * **The sudoku of the day**, the same for everyone, so you can build a habit and keep your days in a row.
 * **My statistics**, a settings panel and a list of keyboard shortcuts.
 

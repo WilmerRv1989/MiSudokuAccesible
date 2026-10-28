@@ -27,7 +27,7 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description=_("""Accessible sudoku for NVDA, for all ages.
 Play 9 by 9 sudokus in three levels and mini sudokus of 4 by 4 and 6 by 6, with every cell readable by speech and braille. Includes hints that explain every move; Learn to play, a guided 13-lesson course also designed for children, with endless practice of each technique; a sudoku of the day; and your statistics.
-The Learn to play course is currently available in Spanish only."""),
+The Learn to play course is currently available in Spanish and Brazilian Portuguese only."""),
 	# version
 	addon_version="1.0.0",
 	# Brief changelog for this version

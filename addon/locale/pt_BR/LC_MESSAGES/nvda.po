@@ -1,0 +1,1145 @@
+# Brazilian Portuguese translation of MiSudokuAccesible.
+# Copyright (C) 2026 Wilmer Rodríguez Vega
+# This file is distributed under the same license as the miSudokuAccesible package.
+# Wilmer Rodríguez Vega <contacto@wilmer-rv.com>, 2026.
+# brunowelber <bwpereira@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miSudokuAccesible 0.1.0\n"
+"Report-Msgid-Bugs-To: contacto@wilmer-rv.com\n"
+"PO-Revision-Date: 2026-10-27 23:00-0300\n"
+"Last-Translator: brunowelber <bwpereira@gmail.com>\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Translators: name of the add-on, used as the submenu label and the input gestures category.
+#. Translators: title of the add-on panel in NVDA's settings.
+#. Translators: category of the add-on commands in the Input gestures dialog.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+msgid "MiSudokuAccesible"
+msgstr "MiSudokuAccesible"
+
+#. Translators: item of the add-on submenu that starts a new sudoku.
+#. Translators: item of the menu of the sudoku board.
+msgid "&New sudoku..."
+msgstr "&Novo sudoku..."
+
+#. Translators: help text of the "New sudoku" menu item.
+msgid "Choose a level and start a new sudoku"
+msgstr "Escolher um nível e começar um novo sudoku"
+
+#. Translators: item of the add-on submenu that opens the sudoku of the day.
+msgid "Sudoku of the &day"
+msgstr "Sudoku do &dia"
+
+#. Translators: help text of the "Sudoku of the day" menu item.
+msgid "A new sudoku every day, the same for everyone"
+msgstr "Um novo sudoku por dia, o mesmo para todos"
+
+#. Translators: item of the add-on submenu that opens the sudoku course.
+msgid "&Learn to play..."
+msgstr "&Aprender a jogar..."
+
+#. Translators: help text of the "Learn to play" menu item.
+msgid "Guided lessons to learn sudoku step by step"
+msgstr "Lições guiadas para aprender sudoku passo a passo"
+
+#. Translators: item of the add-on submenu that shows the statistics.
+msgid "My &statistics..."
+msgstr "Minhas &estatísticas..."
+
+#. Translators: help text of the "My statistics" menu item.
+msgid "Sudokus solved, best times, days in a row and your progress in the course"
+msgstr "Sudokus resolvidos, melhores tempos, dias seguidos e seu progresso no curso"
+
+#. Translators: item of the add-on submenu that shows all the keyboard shortcuts.
+msgid "&Keyboard shortcuts..."
+msgstr "A&talhos de teclado..."
+
+#. Translators: help text of the "Keyboard shortcuts" menu item.
+msgid "The keys of the board and of the lessons"
+msgstr "As teclas do tabuleiro e das lições"
+
+#. Translators: item of the add-on submenu that opens the sudoku in progress.
+msgid "&Continue the sudoku"
+msgstr "&Continuar o sudoku"
+
+#. Translators: help text of the "Continue the sudoku" menu item.
+msgid "Open the sudoku you left unfinished"
+msgstr "Abrir o sudoku que você deixou sem terminar"
+
+#. Translators: label of the add-on submenu inside NVDA's Tools menu.
+msgid "Mi&SudokuAccesible"
+msgstr "Mi&SudokuAccesible"
+
+#. Translators: help text of the add-on submenu.
+msgid "Accessible sudoku"
+msgstr "Sudoku acessível"
+
+#. Translators: description of the command that opens the sudoku course, shown in the Input gestures dialog.
+msgid "Opens the sudoku course Learn to play"
+msgstr "Abre o curso de sudoku Aprender a jogar"
+
+#. Translators: reported when asking for a new sudoku while another one is being prepared.
+msgid "A sudoku is already being prepared."
+msgstr "Já há um sudoku sendo preparado."
+
+#. Translators: asked when starting a new sudoku while another one is unfinished.
+msgid "You have an unfinished sudoku. If you start a new one, it will be lost. Start a new sudoku?"
+msgstr "Você tem um sudoku sem terminar. Se começar um novo, ele será perdido. Começar um novo sudoku?"
+
+#. Translators: title of the confirmation to start a new sudoku.
+#. Translators: title of the new sudoku dialog.
+msgid "New sudoku"
+msgstr "Novo sudoku"
+
+#. Translators: said while a new sudoku is generated (it can take a couple of seconds).
+msgid "Preparing the sudoku..."
+msgstr "Preparando o sudoku..."
+
+#. Translators: reported when a new sudoku could not be generated.
+msgid "The sudoku could not be prepared. Please try again."
+msgstr "Não foi possível preparar o sudoku. Tente novamente."
+
+#. Translators: reported when the saved sudoku cannot be opened.
+msgid "The unfinished sudoku could not be opened. You can start a new one."
+msgstr "Não foi possível abrir o sudoku sem terminar. Você pode começar um novo."
+
+#. Translators: title of the message about the saved sudoku.
+msgid "Continue the sudoku"
+msgstr "Continuar o sudoku"
+
+#. Translators: said after solving a sudoku faster than ever in that size and level.
+msgid "It is your best time in this size and level!"
+msgstr "É o seu melhor tempo neste tamanho e nível!"
+
+#. Translators: said when opening the sudoku of the day after solving it, as in "You already solved today's sudoku. You have solved it 3 days in a row. Come back tomorrow for a new one."
+msgid "You already solved today's sudoku. {streak} Come back tomorrow for a new one."
+msgstr "Você já resolveu o sudoku de hoje. {streak} Volte amanhã para um novo."
+
+#. Translators: title of the message about the sudoku of the day.
+#. Translators: heading of the statistics.
+msgid "Sudoku of the day"
+msgstr "Sudoku do dia"
+
+#. Translators: asked before starting the sudoku of the day.
+msgid "How do you want to play today's sudoku?"
+msgstr "Como você quer jogar o sudoku de hoje?"
+
+#. Translators: button to play the sudoku of the day with hints and clash warnings.
+msgid "&With help"
+msgstr "&Com ajuda"
+
+#. Translators: button to play the sudoku of the day without hints or clash warnings.
+msgid "With&out help"
+msgstr "&Sem ajuda"
+
+#. Translators: said while the sudoku of the day is generated.
+msgid "Preparing the sudoku of the day..."
+msgstr "Preparando o sudoku do dia..."
+
+#. Translators: description of the command that opens the sudoku of the day, shown in the Input gestures dialog.
+msgid "Opens the sudoku of the day"
+msgstr "Abre o sudoku do dia"
+
+#. Translators: description of the command that shows the statistics, shown in the Input gestures dialog.
+msgid "Shows your sudoku statistics"
+msgstr "Mostra suas estatísticas de sudoku"
+
+#. Translators: description of the command that opens the sudoku board, shown in the Input gestures dialog.
+msgid "Opens the sudoku board: continues the unfinished sudoku or starts a new one"
+msgstr "Abre o tabuleiro de sudoku: continua o sudoku sem terminar ou começa um novo"
+
+#. Translators: joins the last two items of a list of numbers, as in "1, 4 and 7".
+#. Translators: joins the places where a number clashes, as in "in the row and in the block".
+msgid "{items} and {last}"
+msgstr "{items} e {last}"
+
+#. Translators: a sudoku difficulty level.
+msgid "Easy"
+msgstr "Fácil"
+
+#. Translators: a sudoku difficulty level.
+msgid "Medium"
+msgstr "Médio"
+
+#. Translators: a sudoku difficulty level.
+msgid "Hard"
+msgstr "Difícil"
+
+#. Translators: a size of the sudoku board, as in "9 by 9".
+msgid "{size} by {size}"
+msgstr "{size} por {size}"
+
+#. Translators: said when pressing a number that is too big for the board, as in "In this sudoku the numbers go from 1 to 4."
+msgid "In this sudoku the numbers go from 1 to {last}."
+msgstr "Neste sudoku os números vão de 1 a {last}."
+
+#. Translators: reported for a cell without notes.
+msgid "no notes"
+msgstr "sem anotações"
+
+#. Translators: the notes of a cell, as in "notes 1, 4 and 7".
+msgid "notes {numbers}"
+msgstr "anotações {numbers}"
+
+#. Translators: short form of a cell position, as in "R3C5" (row 3, column 5).
+msgid "R{row}C{column}"
+msgstr "L{row}C{column}"
+
+#. Translators: a cell position at the start of its description, as in "Row 3, column 5".
+msgid "Row {row}, column {column}"
+msgstr "Linha {row}, coluna {column}"
+
+#. Translators: a cell with a number from the puzzle, which cannot be changed, as in "Row 3, column 5: 7, fixed".
+msgid "{cell}: {number}, fixed"
+msgstr "{cell}: {number}, fixo"
+
+#. Translators: a cell with a number written by the player, as in "Row 3, column 5: 7".
+msgid "{cell}: {number}"
+msgstr "{cell}: {number}"
+
+#. Translators: an empty cell with notes, as in "Row 3, column 5, empty, notes 1, 4 and 7".
+msgid "{cell}, empty, {notes}"
+msgstr "{cell}, vazia, {notes}"
+
+#. Translators: an empty cell, as in "Row 3, column 5, empty".
+msgid "{cell}, empty"
+msgstr "{cell}, vazia"
+
+#. Translators: a cell of the sudoku board when moving into another 3 by 3 block.
+msgid "{cell}, block {block}"
+msgstr "{cell}, bloco {block}"
+
+#. Translators: a row of the sudoku board, at the start of a sentence.
+msgid "Row {number}"
+msgstr "Linha {number}"
+
+#. Translators: a column of the sudoku board, at the start of a sentence.
+msgid "Column {number}"
+msgstr "Coluna {number}"
+
+#. Translators: a 3 by 3 block of the sudoku board, at the start of a sentence.
+msgid "Block {number}"
+msgstr "Bloco {number}"
+
+#. Translators: reported when reading a row, column or block without numbers, as in "Row 3: no numbers".
+msgid "{group}: no numbers"
+msgstr "{group}: sem números"
+
+#. Translators: reported when reading a full row, column or block, as in "Row 3: complete".
+msgid "{group}: complete"
+msgstr "{group}: completo"
+
+#. Translators: reported when reading a full row, column or block with repeated numbers.
+msgid "{group}: has {numbers}; numbers are repeated"
+msgstr "{group}: tem {numbers}; há números repetidos"
+
+#. Translators: reported when reading a row, column or block, as in "Row 3: has 3, 5 and 7; missing 1, 2, 4, 6, 8 and 9".
+msgid "{group}: has {numbers}; missing {missing}"
+msgstr "{group}: tem {numbers}; faltam {missing}"
+
+#. Translators: said when a row of the sudoku gets its 9 numbers.
+msgid "Row {number} complete"
+msgstr "Linha {number} completa"
+
+#. Translators: said when a column of the sudoku gets its 9 numbers.
+msgid "Column {number} complete"
+msgstr "Coluna {number} completa"
+
+#. Translators: said when a 3 by 3 block of the sudoku gets its 9 numbers.
+msgid "Block {number} complete"
+msgstr "Bloco {number} completo"
+
+#. Translators: where a written number clashes, as in "clashes with the 5 in the row".
+msgid "in the row"
+msgstr "na linha"
+
+#. Translators: where a written number clashes, as in "clashes with the 5 in the column".
+msgid "in the column"
+msgstr "na coluna"
+
+#. Translators: where a written number clashes, as in "clashes with the 5 in the block".
+msgid "in the block"
+msgstr "no bloco"
+
+#. Translators: said when a written number is already in its row, column or block.
+msgid "{number}, clashes with the {number} {places}"
+msgstr "{number}, conflita com o {number} {places}"
+
+#. Translators: said when a note is added to a cell.
+msgid "note {number} added"
+msgstr "anotação {number} adicionada"
+
+#. Translators: said when a note is removed from a cell.
+msgid "note {number} removed"
+msgstr "anotação {number} removida"
+
+#. Translators: said when deleting in a cell that is already empty.
+msgid "empty"
+msgstr "vazia"
+
+#. Translators: said when deleting the notes of a cell.
+msgid "notes deleted"
+msgstr "anotações apagadas"
+
+#. Translators: said when deleting a number, as in "7 deleted".
+msgid "{number} deleted"
+msgstr "{number} apagado"
+
+#. Translators: reported when the sudoku has no empty cells.
+msgid "There are no empty cells."
+msgstr "Não há células vazias."
+
+#. Translators: how many empty cells the sudoku has.
+msgid "{count} empty cell left."
+msgid_plural "{count} empty cells left."
+msgstr[0] "Falta {count} célula vazia."
+msgstr[1] "Faltam {count} células vazias."
+
+#. Translators: result of checking the sudoku when every written number is right.
+msgid "Everything you wrote is right."
+msgstr "Tudo o que você escreveu está certo."
+
+#. Translators: result of checking the sudoku, without saying which cells are wrong.
+msgid "{count} cell is wrong."
+msgid_plural "{count} cells are wrong."
+msgstr[0] "{count} célula está errada."
+msgstr[1] "{count} células estão erradas."
+
+#. Translators: part of a duration.
+msgid "{count} hour"
+msgid_plural "{count} hours"
+msgstr[0] "{count} hora"
+msgstr[1] "{count} horas"
+
+#. Translators: part of a duration.
+msgid "{count} minute"
+msgid_plural "{count} minutes"
+msgstr[0] "{count} minuto"
+msgstr[1] "{count} minutos"
+
+#. Translators: part of a duration.
+msgid "{count} second"
+msgid_plural "{count} seconds"
+msgstr[0] "{count} segundo"
+msgstr[1] "{count} segundos"
+
+#. Translators: said when the sudoku is solved; the time is only informative.
+msgid "Congratulations, you solved the sudoku! Time: {time}."
+msgstr "Parabéns, você resolveu o sudoku! Tempo: {time}."
+
+#. Translators: a cell inside a sentence, as in "the 7 only fits in the row 3, column 5".
+msgid "the row {row}, column {column}"
+msgstr "na linha {row}, coluna {column}"
+
+#. Translators: a row inside a sentence, as in "Look at the row 3".
+msgid "the row {number}"
+msgstr "na linha {number}"
+
+#. Translators: a column inside a sentence, as in "Look at the column 3".
+msgid "the column {number}"
+msgstr "na coluna {number}"
+
+#. Translators: a 3 by 3 block inside a sentence, as in "Look at the block 3".
+msgid "the block {number}"
+msgstr "no bloco {number}"
+
+#. Translators: hint when the board has a wrong number, as in "Before going on, check the row 3, column 5: the 4 is not right."
+msgid "Before going on, check {cell}: the {number} is not right."
+msgstr "Antes de continuar, confira {cell}: o {number} não está certo."
+
+#. Translators: added to the hint about a wrong number when there are more.
+msgid "There is {count} more wrong number."
+msgid_plural "There are {count} more wrong numbers."
+msgstr[0] "Há mais {count} número errado."
+msgstr[1] "Há mais {count} números errados."
+
+#. Translators: hint when none of the techniques works; it tells the number of a cell.
+msgid "None of the techniques I know works here, so here is a number: the {number} goes in {cell}."
+msgstr "Nenhuma das técnicas que eu conheço funciona aqui, então vai um número: o {number} vai {cell}."
+
+#. Translators: hint when the sudoku is already solved.
+msgid "The sudoku is already solved."
+msgstr "O sudoku já está resolvido."
+
+#. Translators: short hint, as in "You can write a number in the row 3, but first you need an intersection in the block 2."
+msgid "You can write a number in {target}, but first you need an intersection in {group}."
+msgstr "Você pode escrever um número {target}, mas antes é preciso uma interseção {group}."
+
+#. Translators: short hint, as in "You can write a number in the row 2, but first you need a pair in the column 6."
+msgid "You can write a number in {target}, but first you need a pair in {group}."
+msgstr "Você pode escrever um número {target}, mas antes é preciso um par {group}."
+
+#. Translators: short hint, as in "Look at the row 3: only one number is missing."
+msgid "Look at {group}: only one number is missing."
+msgstr "Olhe {group}: falta só um número."
+
+#. Translators: short hint, as in "Look at the block 4: there is a number that only fits in one place."
+msgid "Look at {group}: there is a number that only fits in one place."
+msgstr "Olhe {group}: há um número que só cabe em um lugar."
+
+#. Translators: short hint, as in "Look at the row 2: there is a cell where only one number fits."
+msgid "Look at the row {row}: there is a cell where only one number fits."
+msgstr "Olhe a linha {row}: há uma célula onde cabe só um número."
+
+#. Translators: full hint, an intersection, as in "In the block 1, the 5 can only go in the row 1, column 2 and the row 1, column 3, which are also in the row 1. So in the row 1 there cannot be another 5 outside those cells."
+msgid "In {group}, the {number} can only go in {cells}, which are also in {other}. So in {other} there cannot be another {number} outside those cells."
+msgstr "Veja: {group}, o {number} só pode ir {cells}, que também estão {other}. Então, {other}, não pode haver outro {number} fora dessas células."
+
+#. Translators: full hint, a hidden pair, as in "In the column 6, the 3 and the 8 can only go in the row 2, column 6 and the row 7, column 6. So those two cells cannot have other numbers."
+msgid "In {group}, the {first} and the {second} can only go in {cells}. So those two cells cannot have other numbers."
+msgstr "Veja: {group}, o {first} e o {second} só podem ir {cells}. Então essas duas células não podem ter outros números."
+
+#. Translators: full hint, a pair, as in "In the column 6, the row 2, column 6 and the row 7, column 6 only accept the 3 and the 8. So in the column 6 no other cell can have a 3 or an 8."
+msgid "In {group}, {cells} only accept the {first} and the {second}. So in {group} no other cell can have a {first} or a {second}."
+msgstr "Veja {group}: as células {cells} só aceitam o {first} e o {second}. Então, {group}, nenhuma outra célula pode ter um {first} ou um {second}."
+
+#. Translators: full hint, as in "In the row 3 only the 6 is missing: it goes in the row 3, column 4."
+msgid "In {group} only the {number} is missing: it goes in {cell}."
+msgstr "Só falta o {number} {group}: ele vai {cell}."
+
+#. Primero dónde va el número; después, por qué.
+#. Translators: start of a full hint with an intersection or a pair, as in "The 8 goes in the row 3, column 7. Why:"
+msgid "The {number} goes in {cell}. Why:"
+msgstr "O {number} vai {cell}. Por quê:"
+
+#. Translators: full hint after explaining an intersection or a pair, as in "Therefore, in the block 4, the 7 only fits in the row 5, column 2."
+msgid "Therefore, in {group}, the {number} only fits in {cell}."
+msgstr "Por isso, {group}, o {number} só cabe {cell}."
+
+#. Translators: full hint, as in "In the block 4, the 7 only fits in the row 5, column 2: the other empty cells already have a 7 in their row, column or block."
+msgid "In {group}, the {number} only fits in {cell}: the other empty cells already have a {number} in their row, column or block."
+msgstr "O {number} só cabe {cell}: as outras células vazias {group} já têm um {number} na linha, na coluna ou no bloco."
+
+#. Translators: full hint after explaining an intersection or a pair, as in "Therefore, only the 4 fits in the row 2, column 8."
+msgid "Therefore, only the {number} fits in {cell}."
+msgstr "Por isso, só o {number} cabe {cell}."
+
+#. Translators: full hint, as in "Only the 4 fits in the row 2, column 8: the other numbers are already in its row, column or block."
+msgid "Only the {number} fits in {cell}: the other numbers are already in its row, column or block."
+msgstr "Só o {number} cabe {cell}: os outros números já estão na linha, na coluna ou no bloco dela."
+
+#. Translators: days in a row solving the sudoku of the day.
+msgid "You have solved it {count} day in a row."
+msgid_plural "You have solved it {count} days in a row."
+msgstr[0] "Você o resolveu {count} dia seguido."
+msgstr[1] "Você o resolveu {count} dias seguidos."
+
+#. Translators: a line of the statistics, as in "9 by 9, Hard: 5 solved, 2 without help. Best time: 20 minutes."
+msgid "{size}, {level}: {count} solved, {without} without help. Best time: {time}."
+msgid_plural "{size}, {level}: {count} solved, {without} without help. Best time: {time}."
+msgstr[0] "{size}, {level}: {count} resolvido, {without} sem ajuda. Melhor tempo: {time}."
+msgstr[1] "{size}, {level}: {count} resolvidos, {without} sem ajuda. Melhor tempo: {time}."
+
+#. Translators: a line of the statistics, as in "9 by 9, Easy: 3 solved. Best time: 12 minutes and 5 seconds."
+msgid "{size}, {level}: {count} solved. Best time: {time}."
+msgid_plural "{size}, {level}: {count} solved. Best time: {time}."
+msgstr[0] "{size}, {level}: {count} resolvido. Melhor tempo: {time}."
+msgstr[1] "{size}, {level}: {count} resolvidos. Melhor tempo: {time}."
+
+#. Translators: statistics when no sudoku has been solved yet.
+msgid "You have not solved any sudoku yet."
+msgstr "Você ainda não resolveu nenhum sudoku."
+
+#. Translators: a line of the statistics about the sudoku of the day.
+msgid "Days in a row: {count}."
+msgstr "Dias seguidos: {count}."
+
+#. Translators: a line of the statistics about the sudoku of the day.
+msgid "Record: {count} day in a row."
+msgid_plural "Record: {count} days in a row."
+msgstr[0] "Recorde: {count} dia seguido."
+msgstr[1] "Recorde: {count} dias seguidos."
+
+#. Translators: a line of the statistics about the sudoku of the day.
+msgid "Solved in total: {count}."
+msgstr "Resolvidos no total: {count}."
+
+#. Translators: a line of the statistics about the sudoku of the day.
+msgid "Today's sudoku is already solved."
+msgstr "O sudoku de hoje já está resolvido."
+
+#. Translators: a line of the statistics about the course.
+msgid "Lessons finished: {done} of {total}."
+msgstr "Lições concluídas: {done} de {total}."
+
+#. Translators: a line of the statistics about the course.
+msgid "Stars: {stars} of {total}."
+msgstr "Estrelas: {stars} de {total}."
+
+#. Translators: a line of the statistics, as in "Best practice in lesson 4, Last number: 13 of 15."
+msgid "Best practice in lesson {id}, {title}: {stars} of {total}."
+msgstr "Melhor prática na lição {id}, {title}: {stars} de {total}."
+
+#. Translators: heading of the statistics.
+msgid "Sudokus solved"
+msgstr "Sudokus resolvidos"
+
+#. Translators: heading of the statistics.
+#. Translators: title of the list of lessons of the course.
+msgid "Learn to play"
+msgstr "Aprender a jogar"
+
+#. Translators: instruction of an exercise where the whole sudoku is solved.
+msgid "Solve the whole sudoku. Press P or Shift+P whenever you need a hint."
+msgstr "Resolva o sudoku inteiro. Pressione P ou Shift+P sempre que precisar de uma dica."
+
+#. Translators: after the instruction of an exercise about a technique.
+msgid "Find it and write it."
+msgstr "Encontre-o e escreva."
+
+#. Translators: what to do in the first step of an intersection or pair exercise, as in "Remove note 7 from the row 3, column 7."
+msgid "Remove note {numbers} from {cell}."
+msgid_plural "Remove notes {numbers} from {cell}."
+msgstr[0] "Remova a anotação {numbers} {cell}."
+msgstr[1] "Remova as anotações {numbers} {cell}."
+
+#. Translators: before the first step of an intersection or pair exercise.
+msgid "Step 1 of 2."
+msgstr "Passo 1 de 2."
+
+#. Translators: before the second step of an intersection or pair exercise.
+msgid "Step 2 of 2."
+msgstr "Passo 2 de 2."
+
+#. Translators: second step of an exercise, as in "Now only one note is left in the row 3, column 7. Write that number."
+msgid "Now only one note is left in {cell}. Write that number."
+msgstr "Agora só resta uma anotação {cell}. Escreva esse número."
+
+#. Translators: said when writing in another cell in the second step, as in "Not here. Write in the row 3, column 7."
+msgid "Write in {cell}."
+msgstr "Escreva {cell}."
+
+#. Translators: short hint of the second step, as in "Press N in the row 3, column 7: only one note is left."
+msgid "Press N in {cell}: only one note is left."
+msgstr "Pressione N {cell}: só resta uma anotação."
+
+#. Translators: second step of an exercise, as in "Now, in the row 2, the 1 only fits in one cell. Find it and write it."
+msgid "Now, in {group}, the {number} only fits in one cell. Find it and write it."
+msgstr "Agora o {number} só cabe em uma célula {group}. Encontre-a e escreva."
+
+#. Translators: said when writing in another cell in the second step, as in "In the row 2, the 1 only fits in one cell now."
+msgid "In {group}, the {number} only fits in one cell now."
+msgstr "O {number} agora só cabe em uma célula {group}."
+
+#. Translators: short hint of the second step, as in "Press N in the empty cells of the row 2: only one still has note 1."
+msgid "Press N in the empty cells of {group}: only one still has note {number}."
+msgstr "Pressione N nas células vazias {group}: só uma ainda tem a anotação {number}."
+
+#. Translators: full hint of the second step, as in "The 8 goes in the row 3, column 7."
+msgid "The {number} goes in {cell}."
+msgstr "O {number} vai {cell}."
+
+#. Translators: short hint of the first step of an intersection or pair exercise.
+msgid "Notes are removed with Shift and the number, the same keys that add them. N reads the notes of a cell."
+msgstr "As anotações são removidas com Shift e o número, as mesmas teclas que as adicionam. N lê as anotações de uma célula."
+
+#. Translators: short hint of an exercise, as in "Press B inside the block 4 to hear which number is missing."
+msgid "Press {key} inside {group} to hear which number is missing."
+msgstr "Pressione {key} {group} para ouvir qual número falta."
+
+#. Translators: short hint of an exercise, as in "Look for the 7: in the block 4 it only fits in one cell."
+msgid "Look for the {number}: in {group} it only fits in one cell."
+msgstr "Procure o {number}: ele só cabe em uma célula {group}."
+
+#. Translators: short hint of an exercise about a cell where only one number fits.
+msgid "Go through the empty cells of the row {row} and press C and B in each one: in one of them only one number fits."
+msgstr "Percorra as células vazias da linha {row} e pressione C e B em cada uma: em uma delas cabe só um número."
+
+#. Translators: instruction of an exercise about notes, as in "Write as notes in the row 3, column 5 all the numbers that can go there."
+msgid "Write as notes in {cell} all the numbers that can go there."
+msgstr "Escreva como anotações {cell} todos os números que podem ir ali."
+
+#. Translators: short hint of an exercise about notes.
+msgid "Press F, C and B to hear which numbers are already in its row, its column and its block."
+msgstr "Pressione F, C e B para ouvir quais números já estão na linha, na coluna e no bloco dela."
+
+#. Translators: full hint of an exercise about notes, as in "The numbers that can go are 3, 5 and 8."
+msgid "The numbers that can go are {numbers}."
+msgstr "Os números que podem ir são {numbers}."
+
+#. Translators: praise when an exercise of the course is done.
+msgid "Very good!"
+msgstr "Muito bem!"
+
+#. Translators: praise when an exercise of the course is done.
+msgid "Excellent!"
+msgstr "Excelente!"
+
+#. Translators: praise when an exercise of the course is done.
+msgid "You did it!"
+msgstr "Você conseguiu!"
+
+#. Translators: praise when an exercise of the course is done.
+msgid "Well done!"
+msgstr "Parabéns!"
+
+#. Translators: stars earned in an exercise of the course.
+msgid "You earned {count} star."
+msgid_plural "You earned {count} stars."
+msgstr[0] "Você ganhou {count} estrela."
+msgstr[1] "Você ganhou {count} estrelas."
+
+#. Translators: said when trying to change the board of an exercise that is already done.
+msgid "This exercise is already done."
+msgstr "Este exercício já foi feito."
+
+#. Translators: reported when trying to change a cell with a number from the puzzle.
+msgid "fixed"
+msgstr "fixo"
+
+#. Translators: said when writing a number in an exercise about notes.
+msgid "In this exercise you only write notes: press Shift and the number."
+msgstr "Neste exercício você só escreve anotações: pressione Shift e o número."
+
+#. Translators: said when writing a number in an exercise about deleting.
+msgid "In this exercise you only delete: press Delete on the wrong number."
+msgstr "Neste exercício você só apaga: pressione Delete no número errado."
+
+#. En los ejercicios de técnicas no se dice la casilla: encontrarla es el ejercicio.
+#. Translators: said when writing in another cell in an exercise about a technique, as in "Not here. Look at the block 4: ..."
+msgid "Not here. {orientation}"
+msgstr "Aqui não. {orientation}"
+
+#. Translators: said when writing outside the cells of the exercise, as in "In this exercise, write in the row 1, column 4."
+msgid "In this exercise, write in {cells}."
+msgstr "Neste exercício, escreva {cells}."
+
+#. Translators: said when writing or deleting in the step where notes must be removed.
+msgid "In this step you only remove notes: press Shift and the number of the note."
+msgstr "Neste passo você só remove anotações: pressione Shift e o número da anotação."
+
+#. Translators: said when a number is already in the row, column or block, as in "The 3 is already in the row 1. Try another one."
+msgid "The {number} is already in {group}. Try another one."
+msgstr "O {number} já está {group}. Tente outro."
+
+#. Translators: said when a number does not clash but is not the right one.
+msgid "The {number} does not go here. Try another one."
+msgstr "O {number} não vai aqui. Tente outro."
+
+#. Translators: reported when adding a note to a cell that already has a number.
+msgid "The cell has a number. Delete it to write notes."
+msgstr "A célula tem um número. Apague-o para escrever anotações."
+
+#. Translators: said when touching another note in the step where notes must be removed, as in "Not that one. Remove note 7 from the row 3, column 7."
+msgid "Not that one. {orientation}"
+msgstr "Essa não. {orientation}"
+
+#. Translators: said when writing notes outside the cells of the exercise.
+msgid "In this exercise, write the notes in {cells}."
+msgstr "Neste exercício, escreva as anotações {cells}."
+
+#. Translators: said when a note cannot go in a cell, as in "The 2 cannot go here: it is already in the column 1."
+msgid "The {number} cannot go here: it is already in {group}."
+msgstr "O {number} não pode ir aqui: já está {group}."
+
+#. Translators: said when deleting a right number in an exercise about deleting the wrong ones.
+msgid "That number is right. Look for the wrong one."
+msgstr "Esse número está certo. Procure o errado."
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Moving around the board"
+msgstr "Movimentação pelo tabuleiro"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Move between the cells"
+msgstr "Mover entre as células"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "First or last cell of the row"
+msgstr "Primeira ou última célula da linha"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Next or previous empty cell"
+msgstr "Próxima ou anterior célula vazia"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Write that number"
+msgstr "Escrever esse número"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Add or remove that number as a note"
+msgstr "Adicionar ou remover esse número como anotação"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Delete the number of the cell or, if it has none, its notes"
+msgstr "Apagar o número da célula ou, se não tiver, suas anotações"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Undo the last change"
+msgstr "Desfazer a última alteração"
+
+#. Translators: description in the list of keyboard shortcuts, in lessons.
+msgid "In the lessons, a number that does not fit is not written"
+msgstr "Nas lições, um número que não cabe não é escrito"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Writing"
+msgstr "Escrita"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Information"
+msgstr "Informação"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Notes of the cell"
+msgstr "Anotações da célula"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Which numbers the row has and which are missing"
+msgstr "Quais números a linha tem e quais faltam"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Which numbers the column has and which are missing"
+msgstr "Quais números a coluna tem e quais faltam"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Which numbers the block has and which are missing"
+msgstr "Quais números o bloco tem e quais faltam"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "How many empty cells are left"
+msgstr "Quantas células vazias faltam"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Short hint: where to look and what to look for"
+msgstr "Dica curta: onde olhar e o que procurar"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Full hint: which number goes where, and why"
+msgstr "Dica completa: qual número vai onde, e por quê"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "In a sudoku without help there are no hints"
+msgstr "Em um sudoku sem ajuda não há dicas"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Hints"
+msgstr "Dicas"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Lessons"
+msgstr "Lições"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Repeat the instruction of the exercise"
+msgstr "Repetir a instrução do exercício"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Repeat the explanation of the lesson"
+msgstr "Repetir a explicação da lição"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Board menu: new sudoku, check, restart, keyboard shortcuts and close"
+msgstr "Menu do tabuleiro: novo sudoku, verificar, reiniciar, atalhos de teclado e fechar"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Lesson menu: next lesson, practice, list of lessons, keyboard shortcuts and close"
+msgstr "Menu da lição: próxima lição, prática, lista de lições, atalhos de teclado e fechar"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Menu and window"
+msgstr "Menu e janela"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "This list of keyboard shortcuts"
+msgstr "Esta lista de atalhos de teclado"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Close the window; the sudoku and the progress are kept"
+msgstr "Fechar a janela; o sudoku e o progresso são guardados"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Close the window"
+msgstr "Fechar a janela"
+
+#. Translators: heading in the list of keyboard shortcuts: commands that work from anywhere.
+msgid "From anywhere"
+msgstr "De qualquer lugar"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Open the board: continue the unfinished sudoku or start a new one"
+msgstr "Abrir o tabuleiro: continuar o sudoku sem terminar ou começar um novo"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Open the sudoku of the day"
+msgstr "Abrir o sudoku do dia"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Open Learn to play"
+msgstr "Abrir Aprender a jogar"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Show My statistics"
+msgstr "Mostrar Minhas estatísticas"
+
+#. Translators: shown in the list of keyboard shortcuts when a command has no key.
+msgid "no key assigned"
+msgstr "nenhuma tecla atribuída"
+
+#. Translators: introduction of the list of keyboard shortcuts.
+msgid "You can change these keys in the NVDA menu, Preferences, Input gestures, category MiSudokuAccesible (with the focus on the board for the board keys)."
+msgstr "Você pode mudar essas teclas no menu do NVDA, Preferências, Gestos de entrada, categoria MiSudokuAccesible (com o foco no tabuleiro, para as teclas do tabuleiro)."
+
+#. Translators: title of the window with the list of keyboard shortcuts.
+msgid "Keyboard shortcuts"
+msgstr "Atalhos de teclado"
+
+#. Translators: state of a completed lesson in the list of lessons.
+msgid "Completed, {stars} of {total} stars."
+msgstr "Concluída, {stars} de {total} estrelas."
+
+#. Translators: state of a lesson started but not finished, in the list of lessons.
+msgid "In progress: {done} of {total} exercises."
+msgstr "Em andamento: {done} de {total} exercícios."
+
+#. Translators: state of a lesson not started, in the list of lessons.
+msgid "Pending."
+msgstr "Pendente."
+
+#. Translators: best practice round of a lesson, shown in the list of lessons.
+msgid "Best practice: {stars} of {total}."
+msgstr "Melhor prática: {stars} de {total}."
+
+#. Translators: block heading before the first lesson of a block, as in "Block A, Getting to know sudoku."
+msgid "Block {block}, {title}."
+msgstr "Bloco {block}, {title}."
+
+#. Translators: label of the list of lessons.
+msgid "&Lessons:"
+msgstr "&Lições:"
+
+#. Translators: button that starts the selected lesson.
+#. Translators: button that starts the exercises of a lesson.
+msgid "&Start"
+msgstr "&Iniciar"
+
+#. Translators: button that starts a practice round of the selected lesson.
+msgid "&Practice"
+msgstr "&Praticar"
+
+#. Translators: button that closes the list of lessons.
+msgid "&Close"
+msgstr "&Fechar"
+
+#. Translators: said at the end of a lesson explanation.
+msgid "This lesson has {count} exercise."
+msgid_plural "This lesson has {count} exercises."
+msgstr[0] "Esta lição tem {count} exercício."
+msgstr[1] "Esta lição tem {count} exercícios."
+
+#. Translators: said when a lesson is resumed, as in "You will continue from exercise 3."
+msgid "You will continue from exercise {number}."
+msgstr "Você vai continuar a partir do exercício {number}."
+
+#. Translators: button that goes back to the list of lessons.
+msgid "&Back"
+msgstr "&Voltar"
+
+#. Translators: said when a lesson is finished, as in "You finished lesson 1! You have 11 of 12 stars."
+msgid "You finished lesson {id}! You have {stars} of {total} stars."
+msgstr "Você concluiu a lição {id}! Você tem {stars} de {total} estrelas."
+
+#. Translators: said at the end of a lesson.
+msgid "Open the menu with the Applications key to go on to the next lesson."
+msgstr "Abra o menu com a tecla Aplicativos para ir à próxima lição."
+
+#. Translators: said while the first exercise of a practice round is prepared.
+msgid "Preparing the practice..."
+msgstr "Preparando a prática..."
+
+#. Translators: reported when a practice exercise could not be prepared.
+msgid "The practice could not be prepared. Please try again."
+msgstr "Não foi possível preparar a prática. Tente novamente."
+
+#. Translators: said while the next practice exercise is still being prepared.
+msgid "Preparing the next exercise..."
+msgstr "Preparando o próximo exercício..."
+
+#. Translators: said at the end of a practice round, as in "You finished the practice round with 13 of 15 stars. Your best: 14. Open the menu to play another round."
+msgid "You finished the practice round with {stars} of {total} stars. Your best: {best}. Open the menu to play another round."
+msgstr "Você terminou a rodada de prática com {stars} de {total} estrelas. Seu melhor: {best}. Abra o menu para jogar outra rodada."
+
+#. Translators: label of the board size choice in the new sudoku dialog.
+msgid "&Size:"
+msgstr "&Tamanho:"
+
+#. Translators: label of the difficulty level choice in the new sudoku dialog.
+msgid "&Level:"
+msgstr "&Nível:"
+
+#. Translators: label of the choice of hints and clash warnings in the new sudoku dialog.
+msgid "&Help:"
+msgstr "&Ajuda:"
+
+#. Translators: an option of the Help choice in the new sudoku dialog.
+msgid "On: hints and clash warnings"
+msgstr "Ligada: dicas e avisos de conflito"
+
+#. Translators: an option of the Help choice in the new sudoku dialog.
+msgid "Off: no hints or clash warnings"
+msgstr "Desligada: sem dicas nem avisos de conflito"
+
+#. Translators: title of the statistics window.
+msgid "My statistics"
+msgstr "Minhas estatísticas"
+
+#. Translators: label of the choice of how cell positions are said, in the settings panel.
+msgid "Say the &position of the cells:"
+msgstr "Falar a &posição das células:"
+
+#. Translators: option of how cell positions are said, in the settings panel.
+msgid "Long (Row 3, column 5)"
+msgstr "Longa (Linha 3, coluna 5)"
+
+#. Translators: option of how cell positions are said, in the settings panel.
+msgid "Short (R3C5)"
+msgstr "Curta (L3C5)"
+
+#. Translators: check box in the settings panel.
+msgid "When writing a number, remove that &note from its row, column and block"
+msgstr "Ao escrever um número, remover essa a&notação da linha, da coluna e do bloco"
+
+#. Translators: check box in the settings panel.
+msgid "Announce when a row, column or block is &complete"
+msgstr "Anunciar quando uma linha, coluna ou bloco estiver &completo"
+
+#. Translators: check box in the settings panel.
+msgid "Play s&ounds (complete groups, exercises, solved sudokus)"
+msgstr "Reproduzir s&ons (grupos completos, exercícios, sudokus resolvidos)"
+
+#. Translators: button in the settings panel.
+msgid "&Delete my progress and statistics..."
+msgstr "&Apagar meu progresso e estatísticas..."
+
+#. Translators: asked before deleting the progress and statistics.
+msgid "This deletes your progress in the course, your practice rounds, the days in a row and the statistics of your sudokus. Unfinished sudokus are kept. It cannot be undone. Delete them?"
+msgstr "Isto apaga seu progresso no curso, suas rodadas de prática, os dias seguidos e as estatísticas dos seus sudokus. Os sudokus sem terminar são mantidos. Não é possível desfazer. Apagar tudo isso?"
+
+#. Translators: title of the confirmation to delete the progress.
+msgid "Delete my progress and statistics"
+msgstr "Apagar meu progresso e estatísticas"
+
+#. Translators: reported after deleting the progress and statistics.
+msgid "Your progress and statistics were deleted."
+msgstr "Seu progresso e suas estatísticas foram apagados."
+
+#. Translators: description of a lesson command in the Input gestures dialog.
+msgid "Repeats the instruction of the exercise"
+msgstr "Repete a instrução do exercício"
+
+#. Translators: description of a lesson command in the Input gestures dialog.
+msgid "Repeats the explanation of the lesson"
+msgstr "Repete a explicação da lição"
+
+#. Translators: said when pressing Control+Z in a lesson.
+msgid "In the lessons there is nothing to undo: a number that does not fit is not written."
+msgstr "Nas lições não há nada para desfazer: um número que não cabe não é escrito."
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Moves to the cell above"
+msgstr "Move para a célula de cima"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Moves to the cell below"
+msgstr "Move para a célula de baixo"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Moves to the cell on the left"
+msgstr "Move para a célula da esquerda"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Moves to the cell on the right"
+msgstr "Move para a célula da direita"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Moves to the first cell of the row"
+msgstr "Move para a primeira célula da linha"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Moves to the last cell of the row"
+msgstr "Move para a última célula da linha"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Moves to the next empty cell"
+msgstr "Move para a próxima célula vazia"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Moves to the previous empty cell"
+msgstr "Move para a célula vazia anterior"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Writes that number in the cell"
+msgstr "Escreve esse número na célula"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Adds or removes that number as a note of the cell"
+msgstr "Adiciona ou remove esse número como anotação da célula"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Deletes the number of the cell or, if it has none, its notes"
+msgstr "Apaga o número da célula ou, se não tiver, suas anotações"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Undoes the last change"
+msgstr "Desfaz a última alteração"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Gives a short hint: where to look and what to look for"
+msgstr "Dá uma dica curta: onde olhar e o que procurar"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Gives a full hint: which number goes where, and why"
+msgstr "Dá uma dica completa: qual número vai onde, e por quê"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Reports the notes of the cell"
+msgstr "Informa as anotações da célula"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Reports which numbers the row has and which are missing"
+msgstr "Informa quais números a linha tem e quais faltam"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Reports which numbers the column has and which are missing"
+msgstr "Informa quais números a coluna tem e quais faltam"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Reports which numbers the block has and which are missing"
+msgstr "Informa quais números o bloco tem e quais faltam"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Reports how many empty cells are left"
+msgstr "Informa quantas células vazias faltam"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Opens the menu of the board"
+msgstr "Abre o menu do tabuleiro"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Shows the keyboard shortcuts of this window"
+msgstr "Mostra os atalhos de teclado desta janela"
+
+#. Translators: description of a sudoku board command in the Input gestures dialog.
+msgid "Closes the board; the sudoku is kept to continue it later"
+msgstr "Fecha o tabuleiro; o sudoku é guardado para continuar depois"
+
+#. Translators: reported when trying to change a solved sudoku.
+msgid "The sudoku is solved. To play another one, open the menu and choose New sudoku."
+msgstr "O sudoku está resolvido. Para jogar outro, abra o menu e escolha Novo sudoku."
+
+#. Translators: reported when there is nothing to undo.
+msgid "There is nothing to undo."
+msgstr "Não há nada para desfazer."
+
+#. Translators: said after undoing, followed by the cell that changed, as in "Undone: row 3, column 5, empty".
+msgid "Undone: {cell}"
+msgstr "Desfeito: {cell}"
+
+#. Translators: said when asking for a hint in a sudoku without help.
+msgid "This sudoku is without help."
+msgstr "Este sudoku é sem ajuda."
+
+#. Translators: title of a lesson, as in "Lesson 1: The rules".
+msgid "Lesson {id}: {title}"
+msgstr "Lição {id}: {title}"
+
+#. Translators: title of a practice round, as in "Practice: Lesson 4: Last number".
+msgid "Practice: {lesson}"
+msgstr "Prática: {lesson}"
+
+#. Translators: accessible name of the sudoku board.
+msgid "Sudoku board"
+msgstr "Tabuleiro de sudoku"
+
+#. Translators: said when a whole sudoku of a lesson continues where it was left.
+msgid "You continue where you left it."
+msgstr "Você continua de onde parou."
+
+#. Translators: before the instruction of an exercise, as in "Exercise 2 of 4."
+msgid "Exercise {number} of {total}."
+msgstr "Exercício {number} de {total}."
+
+#. Translators: item of the menu of a practice round.
+msgid "&Another practice round"
+msgstr "&Outra rodada de prática"
+
+#. Translators: item of the menu of a lesson.
+msgid "&Next lesson"
+msgstr "&Próxima lição"
+
+#. Translators: item of the menu of a lesson.
+msgid "&Practice this lesson"
+msgstr "Pra&ticar esta lição"
+
+#. Translators: item of the menu of a lesson.
+msgid "&List of lessons..."
+msgstr "&Lista de lições..."
+
+#. Translators: item of the menu of the board and of the lessons.
+msgid "&Keyboard shortcuts"
+msgstr "&Atalhos de teclado"
+
+#. Translators: item of the menu of a lesson.
+msgid "&Close the lesson"
+msgstr "&Fechar a lição"
+
+#. Translators: title of the window of the sudoku of the day, as in "MiSudokuAccesible - Sudoku of the day, Medium".
+msgid "MiSudokuAccesible - Sudoku of the day, {level}"
+msgstr "MiSudokuAccesible - Sudoku do dia, {level}"
+
+#. Translators: title of the sudoku board window, as in "MiSudokuAccesible - 9 by 9, Easy".
+msgid "MiSudokuAccesible - {size}, {level}"
+msgstr "MiSudokuAccesible - {size}, {level}"
+
+#. Translators: added to the title of the board window of a sudoku without help.
+msgid "without help"
+msgstr "sem ajuda"
+
+#. Translators: item of the menu of the sudoku board.
+msgid "C&heck"
+msgstr "&Verificar"
+
+#. Translators: item of the menu of the sudoku board.
+msgid "&Restart"
+msgstr "&Reiniciar"
+
+#. Translators: item of the menu of the sudoku board.
+msgid "&Close the board"
+msgstr "&Fechar o tabuleiro"
+
+#. Translators: asked before restarting the sudoku.
+msgid "All the numbers and notes you wrote will be deleted, and the time goes back to zero. Restart?"
+msgstr "Todos os números e anotações que você escreveu serão apagados, e o tempo volta a zero. Reiniciar?"
+
+#. Translators: title of the confirmation to restart the sudoku.
+msgid "Restart"
+msgstr "Reiniciar"
+
+#. Translators: said after restarting the sudoku, followed by how many empty cells are left.
+msgid "Sudoku restarted."
+msgstr "Sudoku reiniciado."
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+msgid ""
+"Accessible sudoku for NVDA, for all ages.\n"
+"Play 9 by 9 sudokus in three levels and mini sudokus of 4 by 4 and 6 by 6, with every cell readable by speech and braille. Includes hints that explain every move; Learn to play, a guided 13-lesson course also designed for children, with endless practice of each technique; a sudoku of the day; and your statistics.\n"
+"The Learn to play course is currently available in Spanish and Brazilian Portuguese only."
+msgstr ""
+"Sudoku acessível para o NVDA, para todas as idades.\n"
+"Jogue sudokus de 9 por 9 em três níveis e minissudokus de 4 por 4 e 6 por 6, com cada célula legível por voz e braille. Inclui dicas que explicam cada jogada; Aprender a jogar, um curso guiado de 13 lições também pensado para crianças, com prática sem fim de cada técnica; um sudoku do dia; e suas estatísticas.\n"
+"O curso Aprender a jogar está disponível atualmente apenas em espanhol e em português do Brasil."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+msgid "First stable version. Play 9 by 9 sudokus in three levels and mini sudokus of 4 by 4 and 6 by 6, with or without help; learn with hints that explain every move and with the 13-lesson course, with endless practice; play the sudoku of the day; and check your statistics."
+msgstr "Primeira versão estável. Jogue sudokus de 9 por 9 em três níveis e minissudokus de 4 por 4 e 6 por 6, com ou sem ajuda; aprenda com dicas que explicam cada jogada e com o curso de 13 lições, com prática sem fim; jogue o sudoku do dia; e confira suas estatísticas."
